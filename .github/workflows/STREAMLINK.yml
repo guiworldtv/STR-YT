@@ -21,7 +21,60 @@ jobs:
     - name: Install streamlink
       run: |
         pip install --user --upgrade streamlink
-    - name: Get UNIVERSALANGOLA.m3u8
+    - name: Get LISTA4.m3u8
+      run: |
+        touch ./LISTA4.m3u8
+        sudo cat >./LISTA4.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp1 best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp2 best)
+
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp3 best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpinternacional best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmemoria best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpmad.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmadeira best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpacores best)
+
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África 
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpafrica best)
+        EOL
+    - name: Get LISTA4.m3u8
       run: |
         touch ./UNIVERSALANGOLA.m3u8
         sudo cat >./UNIVERSALANGOLA.m3u8 <<EOL
@@ -202,86 +255,7 @@ jobs:
         #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtve.es/play/videos/directo/canales-lineales/clan/ best)
         EOL
-    - name: Get RTP1.m3u8
-      run: |
-        touch ./RTP1.m3u8
-        sudo cat >./RTP1.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp1 best)
-        EOL
-    - name: Get RTP2.m3u8
-      run: |
-        touch ./RTP2.m3u8
-        sudo cat >./RTP2.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp2 best)
-        EOL
-    - name: Get RTP3.m3u8
-      run: |
-        touch ./RTP3.m3u8
-        sudo cat >./RTP3.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp3 best)
-        EOL
-    - name: Get RTPINTERNACIONAL.m3u8
-      run: |
-        touch ./RTPINTERNACIONAL.m3u8
-        sudo cat >./RTPINTERNACIONAL.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpinternacional best)
-        EOL
-    - name: Get RTPMEMÓRIA.m3u8
-      run: |
-        touch ./RTPMEMÓRIA.m3u8
-        sudo cat >./RTPMEMÓRIA.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmemoria best)
-        EOL
-    - name: Get RTPMADEIRA.m3u8
-      run: |
-        touch ./RTPMADEIRA.m3u8
-        sudo cat >./RTPMADEIRA.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmadeira best)
-        EOL
-    - name: Get RTPAÇORES.m3u8
-      run: |
-        touch ./RTPAÇORES.m3u8
-        sudo cat >./RTPAÇORES.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpacores best)
-        EOL
-    - name: Get RTPÁFRICA.m3u8
-      run: |
-        touch ./RTPÁFRICA.m3u8
-        sudo cat >./RTPÁFRICA.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpafrica best)
-        EOL
+
     - name: Get RTPAESPAÑA.m3u8
       run: |
         touch ./RTPAESPAÑA.m3u8
