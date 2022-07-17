@@ -1,0 +1,31 @@
+name: Get StreamLink Live m3u8
+on:
+  schedule:
+    - cron: '0 0/2 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install streamlink
+      run: |
+        pip install --user --upgrade streamlink       
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+    - name: commit & push
+      run: |
+        git commit -m "links atualizados"
+        git push
