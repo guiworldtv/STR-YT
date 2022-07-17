@@ -20,7 +20,7 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Install streamlink
       run: |
-        pip install --user --upgrade streamlink       
+        run: python agrupadordelistas.py       
     - name: git add
       run: |
         git add -A
