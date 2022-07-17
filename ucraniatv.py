@@ -4,16 +4,16 @@ import os
 path = os.path.dirname(os.path.realpath(__file__))
 os.chdir(path)
 
-if os.path.exists("concatenate_texts.txt"):
-    os.remove("concatenate_texts.txt")
+if os.path.exists("lista1.m3u8"):
+    os.remove("lista1.m3u8")
 else:
     print("The file does not exist")
 
-read_files = glob.glob("*.txt")
+read_files = glob.glob("*.m3u8")
 
 print(read_files)
 
-with open("concatenate_texts.txt", "wb") as outfile:
+with open("lista1.m3u8", "wb") as outfile:
     for f in read_files:
         i = 0
         line = "\n"
