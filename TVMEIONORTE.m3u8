@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-error: No playable streams found on this URL: https://livestream.com/accounts/3332377/events/10551554
+https://playback2.akamaized.net/streams/3332377_10551554_lsibsxlok3v52td7n0e_1/exp=1658132228~acl=%2f*~data=hdntl~hmac=ff7de5802e1e8c897f4173f042c1498b262c2d84bd90f7ff698fe17ef5a35709/media/3332377_10551554_lsibsxlok3v52td7n0e_1@696000p.m3u8?dw=80&ts=1658044800
