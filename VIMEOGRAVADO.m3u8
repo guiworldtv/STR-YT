@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://23vod-adaptive.akamaized.net/exp=1658073785~acl=%2F3ec1373b-11bd-47b1-869f-6639844e2c4e%2F%2A~hmac=d23a943423a087d21f6318dd5124b57a0a95321dc94d45bd4722731c05db4362/3ec1373b-11bd-47b1-869f-6639844e2c4e/sep/video/77f8397c,8d322e52,b6f97688,7ce0f7d6,0c00cebd/audio/c06cddb2,621def6d,6556c91a/master.mpd?query_string_ranges=1&base64_init=1
+https://23vod-adaptive.akamaized.net/exp=1658077263~acl=%2F3ec1373b-11bd-47b1-869f-6639844e2c4e%2F%2A~hmac=08d96a1461d45385db182c78330f43a4ffdc19e950536f61aeffbe307a210883/3ec1373b-11bd-47b1-869f-6639844e2c4e/sep/video/77f8397c,8d322e52,b6f97688,7ce0f7d6,0c00cebd/audio/c06cddb2,621def6d,6556c91a/master.mpd?query_string_ranges=1&base64_init=1
