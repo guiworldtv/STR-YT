@@ -1,4 +1,4 @@
-name: Get StreamLink Live m3u8
+name: Get agrupadas listas
 on:
   schedule:
     - cron: '0 0/2 * * *'
@@ -18,7 +18,7 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-    - name: Install streamlink
+    - name: AGLUTINAR LISTAS
       run: |
         run: python agrupadordelistas.py       
     - name: git add
