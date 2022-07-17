@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/chunklist_b2540000_slpor.m3u8?token=1658203200_f940c29c5182e8c25ef4a62df1700195d7efaa24
+error: No playable streams found on this URL: https://www.rtp.pt/play/direto/rtp1
