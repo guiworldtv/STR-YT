@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://playback2.akamaized.net/streams/21076186_10489119_lsij1avyyzbs7xl0afp_1/exp=1658168197~acl=%2f*~data=hdntl~hmac=fe1d6d2e7b2e46b15aa6262f33458addbe66eb9891d486e0a0e32be9019e6f30/media/21076186_10489119_lsij1avyyzbs7xl0afp_1@2756000p.m3u8?dw=80&ts=1658080800
+https://playback2.akamaized.net/streams/21076186_10489119_lsij1avyyzbs7xl0afp_1/exp=1658171522~acl=%2f*~data=hdntl~hmac=b1b432549e3b4703268f33e933366e0884d0fc8e6cb4ed365caa544d0333ba76/media/21076186_10489119_lsij1avyyzbs7xl0afp_1@2756000p.m3u8?dw=80&ts=1658084400
