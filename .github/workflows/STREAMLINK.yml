@@ -29,7 +29,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1, OLYMPIC CHANNEL
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://olympics.com/en/live/ best)
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.olympics.com/en/live/ best)
         
         #EXTM3U
         #EXT-X-VERSION:3
