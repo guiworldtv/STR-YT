@@ -74,14 +74,11 @@ jobs:
         #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África 
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpafrica best)
         EOL
-    - name: Get LISTA4.m3u8
-      run: |
-        touch ./UNIVERSALANGOLA.m3u8
-        sudo cat >./UNIVERSALANGOLA.m3u8 <<EOL
+
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,UNIVERSALANGOLA
+        #EXTINF:-1,UNIVERSAL ANGOLA
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/tvmiramar/fetv best)
         EOL
     - name: Get TVMEIONORTE.m3u8
