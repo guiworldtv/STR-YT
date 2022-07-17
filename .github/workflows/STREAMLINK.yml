@@ -28,6 +28,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,UNIVERSALANGOLA
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/tvmiramar/fetv best)
         EOL
     - name: Get TVMEIONORTE.m3u8
@@ -37,6 +38,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,TVMEIONORTE
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/accounts/3332377/events/10551554 best)
         EOL
     - name: Get VIMEOGRAVADO.m3u8
@@ -46,6 +48,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,VIMEOGRAVADO
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://vimeo.com/728285190 best)
         EOL
     
@@ -56,6 +59,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.youtube.com/c/CNBC best)
         EOL         
     - name: Get TVIPORTUGAL.m3u8
@@ -65,6 +69,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI best)
         EOL
     - name: Get CNNPORTUGAL.m3u8
@@ -74,6 +79,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/CNN best)
         EOL
     - name: Get TVIFICÇÃO.m3u8
@@ -83,6 +89,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI_FICCAO best)
         EOL
     - name: Get TVIAFRICA.m3u8
@@ -92,6 +99,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI_AFRICA best)
         EOL
     - name: Get SINALINTERNACIONALTVI.m3u8
@@ -101,6 +109,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL best)
         EOL
     - name: Get MINAMALUCA.m3u8
@@ -110,6 +119,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/saminited best)
         EOL    
     - name: Get CTVCLASSIC.m3u8
@@ -119,6 +129,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/ctv_classic best)
         EOL
     - name: Get WEATHERNEWSLIVE.m3u8
@@ -128,6 +139,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/weathernewslive best)
         EOL
     - name: Get LIVENOWFOX.m3u8
@@ -137,6 +149,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/livenowfox best)
         EOL
     - name: Get TELEIBLEA ITALIANA.m3u8
@@ -146,6 +159,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/teleiblea best)
         EOL
     - name: Get PULARITV.m3u8
@@ -155,6 +169,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/pularitv best)
         EOL       
     - name: Get TELEFE.m3u8
@@ -164,6 +179,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://mitelefe.com/vivo/ best)
         EOL
     - name: Get TDPESPAÑA.m3u8
@@ -173,6 +189,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtve.es/play/videos/directo/canales-lineales/tdp/ best)
         EOL
     - name: Get CLANESPAÑA.m3u8
@@ -182,6 +199,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtve.es/play/videos/directo/canales-lineales/clan/ best)
         EOL
     - name: Get RTP1.m3u8
@@ -191,6 +209,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp1 best)
         EOL
     - name: Get RTP2.m3u8
@@ -200,6 +219,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp2 best)
         EOL
     - name: Get RTP3.m3u8
@@ -209,6 +229,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp3 best)
         EOL
     - name: Get RTPINTERNACIONAL.m3u8
@@ -218,6 +239,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpinternacional best)
         EOL
     - name: Get RTPMEMÓRIA.m3u8
@@ -227,6 +249,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmemoria best)
         EOL
     - name: Get RTPMADEIRA.m3u8
@@ -236,6 +259,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmadeira best)
         EOL
     - name: Get RTPAÇORES.m3u8
@@ -245,6 +269,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpacores best)
         EOL
     - name: Get RTPÁFRICA.m3u8
@@ -254,6 +279,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpafrica best)
         EOL
     - name: Get RTPAESPAÑA.m3u8
@@ -263,6 +289,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://rtpa.es/tpa-television best)
         EOL
     - name: Get OLYMPICCHANNEL.m3u8
@@ -272,6 +299,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1,
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://olympics.com/en/live/ best)
         EOL            
     - name: git add
