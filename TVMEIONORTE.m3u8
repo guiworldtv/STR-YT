@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,TVMEIONORTE
-https://playback2.akamaized.net/streams/3332377_10551554_lsibsxlok3v52td7n0e_1/exp=1658182171~acl=%2f*~data=hdntl~hmac=67d52fc03d3b9f1ad39fd10cf819ec30ce04783ce2551001fd01f976827655c6/media/3332377_10551554_lsibsxlok3v52td7n0e_1@696000p.m3u8?dw=80&ts=1658095200
+https://playback2.akamaized.net/streams/3332377_10551554_lsibsxlok3v52td7n0e_1/exp=1658182426~acl=%2f*~data=hdntl~hmac=b765865b5f962a261475709be698a14fcf1bb1a15d79814a73b7f1c590917c66/media/3332377_10551554_lsibsxlok3v52td7n0e_1@696000p.m3u8?dw=80&ts=1658095200

@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,
-error: Unable to open URL: https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS (403 Client Error: Forbidden for url: https://telefeappmitelefe1.akamaized.net/hls/live/2037985/appmitelefe/TOK/master.m3u8?hdnea=st=1658091954~exp=1658099154~acl=/hls/live/2037985/appmitelefe/TOK/*~hmac=401523c0e55f6b31d1dd4248eda08373512542ad1b7a58b06778e2875a73ee3d)
+error: Unable to open URL: https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS (403 Client Error: Forbidden for url: https://telefeappmitelefe1.akamaized.net/hls/live/2037985/appmitelefe/TOK/master.m3u8?hdnea=st=1658092258~exp=1658099458~acl=/hls/live/2037985/appmitelefe/TOK/*~hmac=4fadf62807ecdb6e4dceffe4131bb1e2064d398666258e753c408012ceaf7ed7)
