@@ -8,7 +8,7 @@ import os
 # 获取目标文件夹的路径
 meragefiledir = os.getcwd() + '\\MerageFiles'
 # 获取当前文件夹中的文件名称列表
-filenames = os.listdir(meragefiledir)
+filenames = os.listdir(.\ucraniatv.m3u8)
 # 打开当前目录下的result.txt文件，如果没有则创建
 # 文件也可以是其他类型的格式，如result.js
 file = open('result.txt', 'w')
