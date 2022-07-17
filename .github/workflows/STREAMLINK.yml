@@ -1,0 +1,284 @@
+name: Get StreamLink Live m3u8
+on:
+  schedule:
+    - cron: '0 0/2 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install streamlink
+      run: |
+        pip install --user --upgrade streamlink
+    - name: Get UNIVERSALANGOLA.m3u8
+      run: |
+        touch ./UNIVERSALANGOLA.m3u8
+        sudo cat >./UNIVERSALANGOLA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/tvmiramar/fetv best)
+        EOL
+    - name: Get TVMEIONORTE.m3u8
+      run: |
+        touch ./TVMEIONORTE.m3u8
+        sudo cat >./TVMEIONORTE.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/accounts/3332377/events/10551554 best)
+        EOL
+    - name: Get VIMEOGRAVADO.m3u8
+      run: |
+        touch ./VIMEOGRAVADO.m3u8
+        sudo cat >./VIMEOGRAVADO.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://vimeo.com/728285190 best)
+        EOL
+    
+    - name: Get YOUTUBEAOVIVO.m3u8
+      run: |
+        touch ./YOUTUBEAOVIVO.m3u8
+        sudo cat >./YOUTUBEAOVIVO.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.youtube.com/c/CNBC best)
+        EOL         
+    - name: Get TVIPORTUGAL.m3u8
+      run: |
+        touch ./TVIPORTUGAL.m3u8
+        sudo cat >./TVIPORTUGAL.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI best)
+        EOL
+    - name: Get CNNPORTUGAL.m3u8
+      run: |
+        touch ./CNNPORTUGAL.m3u8
+        sudo cat >./CNNPORTUGAL.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/CNN best)
+        EOL
+    - name: Get TVIFICÇÃO.m3u8
+      run: |
+        touch ./TVIFICÇÃO.m3u8
+        sudo cat >./TVIFICÇÃO.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI_FICCAO best)
+        EOL
+    - name: Get TVIAFRICA.m3u8
+      run: |
+        touch ./TVIAFRICA.m3u8
+        sudo cat >./TVIAFRICA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI_AFRICA best)
+        EOL
+    - name: Get SINALINTERNACIONALTVI.m3u8
+      run: |
+        touch ./SINALINTERNACIONALTVI.m3u8
+        sudo cat >./SINALINTERNACIONALTVI.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI_INTERNACIONAL best)
+        EOL
+    - name: Get MINAMALUCA.m3u8
+      run: |
+        touch ./MINAMALUCA.m3u8
+        sudo cat >./MINAMALUCA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/saminited best)
+        EOL    
+    - name: Get CTVCLASSIC.m3u8
+      run: |
+        touch ./CTVCLASSIC.m3u8
+        sudo cat >./CTVCLASSIC.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/ctv_classic best)
+        EOL
+    - name: Get WEATHERNEWSLIVE.m3u8
+      run: |
+        touch ./WEATHERNEWSLIVE.m3u8
+        sudo cat >./WEATHERNEWSLIVE.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/weathernewslive best)
+        EOL
+    - name: Get LIVENOWFOX.m3u8
+      run: |
+        touch ./LIVENOWFOX.m3u8
+        sudo cat >./LIVENOWFOX.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/livenowfox best)
+        EOL
+    - name: Get TELEIBLEA ITALIANA.m3u8
+      run: |
+        touch ./TELEIBLEATV.m3u8
+        sudo cat >./TELEIBLEATV.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/teleiblea best)
+        EOL
+    - name: Get PULARITV.m3u8
+      run: |
+        touch ./PULARITV.m3u8
+        sudo cat >./PULARITV.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/pularitv best)
+        EOL       
+    - name: Get TELEFE.m3u8
+      run: |
+        touch ./TELEFE.m3u8
+        sudo cat >./TELEFE.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://mitelefe.com/vivo/ best)
+        EOL
+    - name: Get TDPESPAÑA.m3u8
+      run: |
+        touch ./TDPESPAÑA.m3u8
+        sudo cat >./TDPESPAÑA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtve.es/play/videos/directo/canales-lineales/tdp/ best)
+        EOL
+    - name: Get CLANESPAÑA.m3u8
+      run: |
+        touch ./CLANESPAÑA.m3u8
+        sudo cat >./CLANESPAÑA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtve.es/play/videos/directo/canales-lineales/clan/ best)
+        EOL
+    - name: Get RTP1.m3u8
+      run: |
+        touch ./RTP1.m3u8
+        sudo cat >./RTP1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp1 best)
+        EOL
+    - name: Get RTP2.m3u8
+      run: |
+        touch ./RTP2.m3u8
+        sudo cat >./RTP2.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp2 best)
+        EOL
+    - name: Get RTP3.m3u8
+      run: |
+        touch ./RTP3.m3u8
+        sudo cat >./RTP3.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtp3 best)
+        EOL
+    - name: Get RTPINTERNACIONAL.m3u8
+      run: |
+        touch ./RTPINTERNACIONAL.m3u8
+        sudo cat >./RTPINTERNACIONAL.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpinternacional best)
+        EOL
+    - name: Get RTPMEMÓRIA.m3u8
+      run: |
+        touch ./RTPMEMÓRIA.m3u8
+        sudo cat >./RTPMEMÓRIA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmemoria best)
+        EOL
+    - name: Get RTPMADEIRA.m3u8
+      run: |
+        touch ./RTPMADEIRA.m3u8
+        sudo cat >./RTPMADEIRA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpmadeira best)
+        EOL
+    - name: Get RTPAÇORES.m3u8
+      run: |
+        touch ./RTPAÇORES.m3u8
+        sudo cat >./RTPAÇORES.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpacores best)
+        EOL
+    - name: Get RTPÁFRICA.m3u8
+      run: |
+        touch ./RTPÁFRICA.m3u8
+        sudo cat >./RTPÁFRICA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpafrica best)
+        EOL
+    - name: Get RTPAESPAÑA.m3u8
+      run: |
+        touch ./RTPAESPAÑA.m3u8
+        sudo cat >./RTPAESPAÑA.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://rtpa.es/tpa-television best)
+        EOL
+    - name: Get OLYMPICCHANNEL.m3u8
+      run: |
+        touch ./OLYMPICCHANNEL.m3u8
+        sudo cat >./OLYMPICCHANNEL.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://olympics.com/en/live/ best)
+        EOL            
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+    - name: commit & push
+      run: |
+        git commit -m "links atualizados"
+        git push
