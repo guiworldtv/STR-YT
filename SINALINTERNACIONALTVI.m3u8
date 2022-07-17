@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://video-auth4.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=299018002&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDk6MTM6NyBQTSZoYXNoX3ZhbHVlPXZ4NlJjbDBkb1M5UTdJSGZDeXVHN3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1lNzc4NWM1NC1iZDE4LTQ0NzItYmNjMy1iNGQxOWIyODU3ZjI%3D
+#EXTINF:-1,
+https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=209928889&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDEwOjk6NTIgUE0maGFzaF92YWx1ZT1QNjZNV0xBajd4UHhhTzIwaW8rZm53PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YzAzYzgzYWUtMmJkMy00MDQ3LWE5YTctNmFlZDY4OGE0ODE2

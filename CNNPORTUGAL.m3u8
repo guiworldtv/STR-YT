@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://video-auth7.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=180155122&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDk6MTI6NTggUE0maGFzaF92YWx1ZT1JZ1VDVzVjMzlQV3VZcUpFSTQraU1RPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9Y2U4OTkyOGUtNzRmOS00MmM3LWIzOWQtZjMzMTNkMTBlMGZk
+#EXTINF:-1,
+https://video-auth6.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=209928849&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDEwOjk6NDAgUE0maGFzaF92YWx1ZT1rMWRjYXdvSnFWTFBoTktjSlN5bStRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZmEyODhkNzgtNzFlNS00MjRhLWI4ZDgtYzkzZjkwYTAwODdh

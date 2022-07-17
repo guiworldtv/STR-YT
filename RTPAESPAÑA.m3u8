@@ -1,4 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://cdnlive.codev8.net/rtpalive/smil:directo.smil/fmt_token/mt3UXldAerKSHQ9fimjAxYpQZ2qEaA9-5DeCZC2tAT0/eyJleHBpcmUiOjE2NTgwOTg4MDEsInVybF9hbGxvdyI6WyIvcnRwYWxpdmUiXSwicmVmX2FsbG93IjpbIioucnRwYS5lcyIsInJ0cGEuZXMiXX0/chunklist_b1700000_DVR.m3u8
+#EXTINF:-1,
+https://cdnlive.codev8.net/rtpalive/smil:directo.smil/fmt_token/WjUtND2DF_3bifs6TxHsXpcBr5Rs6F2O6WYwv88O_Y0/eyJleHBpcmUiOjE2NTgxMDI0MDEsInVybF9hbGxvdyI6WyIvcnRwYWxpdmUiXSwicmVmX2FsbG93IjpbIioucnRwYS5lcyIsInJ0cGEuZXMiXX0/chunklist_b1700000_DVR.m3u8
