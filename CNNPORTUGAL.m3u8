@@ -1,5 +1,0 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-#EXTINF:-1,
-https://video-auth6.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=209930017&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDEwOjEzOjUyIFBNJmhhc2hfdmFsdWU9Smdiakw3WFdQM2M0WmVrUzlOR0FHQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTQ2Zjk4ZjA1LTJlOTItNDk1Ni1hZTkxLWViMjFlNzgxZTA4Mg%3D%3D
