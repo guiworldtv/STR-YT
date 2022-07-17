@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658171573~acl=*~data=hdntl~hmac=3b558f59c4114059689cac54e0c7b2706e3005cabad2435745609b6d9daafab3/VIDEO_0_6596000.m3u8
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658175339~acl=*~data=hdntl~hmac=98a0d02c351b4d094fbf63f1377927c1143b25cd9c0499cbcf0049480ac4cbaf/VIDEO_0_6596000.m3u8
 EOL            
