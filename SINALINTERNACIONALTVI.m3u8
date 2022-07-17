@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://video-auth4.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=298524115&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDc6NTQ6NDcgQU0maGFzaF92YWx1ZT1sRXk3b254bjNUSTZUT0V5SVpaZ0F3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YTY5MjM0MzQtMjhlOS00YjhlLTg1MWMtM2RhMmZmODI3YzE1

@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+https://video-auth4.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?nimblesessionid=298524072&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDc6NTQ6MzkgQU0maGFzaF92YWx1ZT1SajdDY1NmMkJoNGFlWW9KalJCaEtRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDMzMWViYjktOTM2NC00MTQ3LWJmMzUtOTlkMTFhZmY2MTg1
