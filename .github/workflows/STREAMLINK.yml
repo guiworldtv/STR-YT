@@ -30,7 +30,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",ALGUM
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.cbsnews.com/live/cbs-sports-hq/ best)
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.sbt.com.br/ao-vivo best)
         
         #EXTM3U
         #EXT-X-VERSION:3
