@@ -53,7 +53,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1, OLYMPIC CHANNEL 3
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.olympics.com/ru/live/ --https-proxy "socks5://127.0.0.1:9150" best)
+        $(streamlink --url --default-stream  --stream-url --output --https-proxy "socks5://127.0.0.1:9150" /home/runner/work/youtube.m3u https://www.olympics.com/ru/live/  best)
         
         #EXTM3U
         #EXT-X-VERSION:3
