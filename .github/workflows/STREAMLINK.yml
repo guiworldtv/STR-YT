@@ -26,11 +26,6 @@ jobs:
         touch ./LISTA4.m3u8
         sudo cat >./LISTA4.m3u8 <<EOL
         
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",TV4 NEWS
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.tv4play.se/program/nyheterna/live/13779028 best)
         
         #EXTM3U
         #EXT-X-VERSION:3
@@ -41,8 +36,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",BAND AO VIVO
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.dailymotion.com/video/k6KRDW5M0jOZO7xaX2yo best)
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",ALGUMA COISA
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://diaonline.ig.com.br/camera-ao-vivo/morro-do-mendanha/ best)
         
         #EXTM3U
         #EXT-X-VERSION:3
