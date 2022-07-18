@@ -30,8 +30,20 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",DESCARGA MTV
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1023-270819141305.png?q=10&v=3&w=275",DESCARGA MTV
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.rtp.pt/play/direto/antena2opera best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1022-000919141305.png?q=10&v=3&w=275",DESCARGA MTV
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.rtp.pt/play/direto/antena1fado best)
+        
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/100-222719141305.png?q=10&v=3&w=275",DESCARGA MTV
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.rtp.pt/play/direto/radiolusitania best)
         
         #EXTM3U
         #EXT-X-VERSION:3
