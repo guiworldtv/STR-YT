@@ -4,7 +4,7 @@ import time
 from tendo import singleton
 me = singleton.SingleInstance()
 
-url = "https://www.youtube.com/c/LagoinhaUSA"
+url = "https://www.youtube.com/c/LagoinhaUSA/live"
 
 def getFileName(url):
 	now = datetime.now() # current date and time
