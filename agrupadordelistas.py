@@ -1,25 +1,24 @@
+import glob
 import os
-from datetime import datetime
-import time
-from tendo import singleton
-me = singleton.SingleInstance()
 
-url = "https://www.youtube.com/c/LagoinhaUSA/live"
+path = os.path.dirname(os.path.realpath(__file__))
+os.chdir(path)
 
-def getFileName(url):
-	now = datetime.now() # current date and time
-	date_time = now.strftime("%m-%d-%Y,%H;%M;%S")
-	file_name ="COCO_LiveStream_{}.mkv".format(date_time)
-	return file_name
-
-stream_test = "streamlink {}".format(url)
-
-if not os.system(stream_test):
-    print("Stream is Live")
-    file_name = getFileName(url)
-    command = "streamlink --hls-live-restart {} best -o {}".format(url, file_name)
-    os.system(command)
-    print("Stream Saved")
-    time.sleep(300)
+if os.path.exists("LISTASAGRUPADAS.m3u8"):
+    os.remove("LISTASAGRUPADAS.m3u8")
 else:
-    print("Waiting for stream to start")
+    print("The file does not exist")
+
+read_files = glob.glob("*.m3u8")
+
+print(read_files)
+
+with open("LISTASAGRUPADAS.m3u8", "wb") as outfile:
+    for f in read_files:
+        i = 0
+        line = "\n"
+        i += 1
+        outfile.write(line.encode('utf-8'))
+        
+        with open(f, "rb") as infile:
+            outfile.write(infile.read())
