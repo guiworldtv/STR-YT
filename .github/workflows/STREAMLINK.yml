@@ -25,30 +25,12 @@ jobs:
       run: |
         touch ./LISTA4.m3u8
         sudo cat >./LISTA4.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1, OLYMPIC CHANNEL
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.olympics.com/en/live/ best)
         
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1, OLYMPIC CHANNEL 2
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.olympics.com/es/live/ best)
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1, OLYMPIC CHANNEL 3
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.olympics.com/fr/live/ best)
-        
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1, OLYMPIC CHANNEL 3
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.olympics.com/pt/live/ best)
-        
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.atresplayer.com/directos/lasexta/ best)
         
         #EXTM3U
         #EXT-X-VERSION:3
@@ -99,23 +81,6 @@ jobs:
         #EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África 
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtp.pt/play/direto/rtpafrica best)
 
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,UNIVERSAL ANGOLA
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/tvmiramar/fetv best)
-
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,TV MEIO NORTE
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://livestream.com/accounts/3332377/events/10551554 best)
-
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,VIMEOGRAVADO
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://vimeo.com/728285190 best)
 
         #EXTM3U
         #EXT-X-VERSION:3
@@ -190,24 +155,11 @@ jobs:
         #EXTINF:-1,PULARITV
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.twitch.tv/pularitv best)
 
-
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,TDPESPAÑA
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtve.es/play/videos/directo/canales-lineales/tdp/ best)
-
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1,CLANESPAÑA
         $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://www.rtve.es/play/videos/directo/canales-lineales/clan/ best)
-
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1,RTPAESPAÑA
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://rtpa.es/tpa-television best)
         
         #EXTM3U
         #EXT-X-VERSION:3
