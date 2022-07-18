@@ -53,7 +53,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1, OLYMPIC CHANNEL 3
-        $(streamlink -O https://www.twitch.tv/saminited best | ffmpeg -i - -acodec copy -vcodec copy ./streamlink_output.mp4)
+        $(streamlink -O hlsvariant://https://www.olympics.com/pt/live/ best | ffmpeg -i)
         
         #EXTM3U
         #EXT-X-VERSION:3
