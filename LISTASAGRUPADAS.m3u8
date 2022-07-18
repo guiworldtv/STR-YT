@@ -7,17 +7,41 @@
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 #EXTINF:-1 tvg-chno="1" tvg-id="c/1plus1" tvg-name="1-1plus1" tvg-logo="https://i.ytimg.com/vi/ASndlvhI8p0/maxresdefault_live.jpg" group-title="UCRANIA",1-1plus1
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658117266/ei/MojUYpjiGZnThgaO_r6YDw/ip/20.120.15.18/id/ASndlvhI8p0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr2---sn-vgqsknz7.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-Khq2RlDuKrxb9miTSFzSrihcu3VE/vprv/1/playlist_type/DVR/mh/Zf/mm/44/mn/sn-vgqsknz7/ms/lva/mv/u/mvi/2/pl/23/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658094721/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIhAMQRf2L9glrdxiWtiufOskxIUbS9BRa0U9Q1_GxCzNRgAiAT9hlzLtxWF6CBRjnSMoXwgh3sR8gd2hsqOfusFuzZmA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhALjhH2DKV0HxaYjCY6RlxGDZpsGsTkcWAtyPekKPDURZAiEAjwzbu366IUNvccq2za_E_p4fkqL_udltc7ub1gpvbmQ%3D/playlist/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658125898/ei/6qnUYtuTG5m5iwTdmLaICw/ip/70.37.97.252/id/ASndlvhI8p0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr4---sn-q4flrney.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhmCZv9VnJGAdgtiG0VOo5Fcphuk/vprv/1/playlist_type/DVR/initcwndbps/78750/mh/Zf/mm/44/mn/sn-q4flrney/ms/lva/mv/m/mvi/4/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658103872/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIhAPcX57Y7GUlSvGm2Yty6Gc_elVpm6LmxMgQC33Zx-CxhAiB_iks36qFICkzeLf9LyeJMMwHOaPRNhRnadxrt7QxLAA%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgNx3815hWcwL4ZJU0q1to3H3ZD5drTiHaFz9vexvLzZkCIG6Qi0iKYXe5UZ1yFIRXr1gB6-xKV-ohWyKLPuF24JAY/playlist/index.m3u8
 #EXTINF:-1 tvg-chno="2" tvg-id="5kanal" tvg-name="2-5kanal" tvg-logo="https://i.ytimg.com/vi/h_eqbWIV8sE/maxresdefault_live.jpg" group-title="UCRANIA",2-5kanal
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658117273/ei/OYjUYqS6GoTnhwbg_rmACA/ip/20.120.15.18/id/h_eqbWIV8sE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-vgqsknly.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-Khp5DkqhFal0JrKmuhnHrM3ojrgg/vprv/1/playlist_type/DVR/mh/5E/mm/44/mn/sn-vgqsknly/ms/lva/mv/u/mvi/3/pl/23/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658094721/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRgIhALRB_GTvYWBhvx1fc6iBU4hTAszsOfS45jWdj9F96WZIAiEAl_YEZ0i7PoBBrBzbDk5NFUSsuxZ0HhgmtuT923i_Mds%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgD_S2DV1E3tRG0pkRoASakGAzLSX3loJXESK4voA2T-oCIQDo1CNKuPv-eIpMXCHDmgjx6TJUeeDaibT1KnvTW_L15w%3D%3D/playlist/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658125906/ei/8qnUYr_bF460igSgjanIBQ/ip/70.37.97.252/id/h_eqbWIV8sE.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr4---sn-q4fl6ner.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhqdPGcCAKOxMeNTo9v0DkKU2u3w/vprv/1/playlist_type/DVR/initcwndbps/78750/mh/5E/mm/44/mn/sn-q4fl6ner/ms/lva/mv/m/mvi/4/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658103872/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIhAK0orWLoMBKGJf88N9omH9fOdhfQ2zkg5CmHqEKz4Xd1AiAWzSzfbGJgh43rdFtxFnZbGpepnWXAMXoz4VjmFuN5Gg%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgKhUItyXHf4minTSOP8XMYnGlYK-6COASrugjhvfE_1UCIC7pkO6cE4dDh9IEtRAIZmR-D2xTGWD70q46rcV0dFOm/playlist/index.m3u8
 #EXTINF:-1 tvg-chno="3" tvg-id="c/11tvDpUaWww" tvg-name="3-11tvDpUaWww" tvg-logo="https://i.ytimg.com/vi/J8h1vpKWn94/maxresdefault_live.jpg" group-title="UCRANIA",3-11tvDpUaWww
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658117283/ei/Q4jUYvKTEbLnhwat76NY/ip/20.120.15.18/id/J8h1vpKWn94.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr2---sn-vgqsrns6.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhmsAERcJrUKdBzXQqHasIDBPuMI/vprv/1/playlist_type/DVR/mh/Hj/mm/44/mn/sn-vgqsrns6/ms/lva/mv/u/mvi/2/pl/23/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658094721/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgMInAeqDcNh5E35bIbi0csrwuhDGMjgozMUkiMUzZ21wCIQD1stezJrIniqk4Xi2fiJNqPsj4IX9ipNgjuPl4TI3BxQ%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgYoWOL6hRsP58C8ToJewHABL1yDn8xp3V8jrg2IRcHIoCICpgI8k_n-zz8iRnKFzXh2eeFg2u2kN5pdpHO--Q-t1Q/playlist/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658125914/ei/-qnUYtLjH83pigSzoZbQDQ/ip/70.37.97.252/id/J8h1vpKWn94.2/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr5---sn-q4flrn7k.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-Khn9plrl71SLCT9kdu-JhTWDiMBE/vprv/1/playlist_type/DVR/initcwndbps/73750/mh/Hj/mm/44/mn/sn-q4flrn7k/ms/lva/mv/m/mvi/5/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658103872/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIhAOJTWTYiGiwZBzMx-2qhSUDNFcZemOYtyw2welsTIXiZAiA8-LUAZLKsm4VdUKqj9LNQ4NwnY0KiNeBUOTh_U1i15A%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAJDef9WzMI-t7JDd4LRpWgB5GAdDDnE-ccG1WU3raYyRAiBf-Zz-kIbwIhYl_moNcy3xRs-6AZlgGasNU9PJ2ASLIQ%3D%3D/playlist/index.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1, OLYMPIC CHANNEL
-https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658186330~acl=*~data=hdntl~hmac=82a8b917b9c3b119b3ebf6c84b0aae582715492e3cc7e2e3b3e2dc4d15545c8a/VIDEO_0_6596000.m3u8
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658189551~acl=*~data=hdntl~hmac=b6b5c8d2b8b468fc5533e18edc5c0cca17d5e1a911c3fb8ffea5709d9e62ba1b/VIDEO_0_6596000.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1, OLYMPIC CHANNEL 2
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658189553~acl=*~data=hdntl~hmac=c56e620780d9ed58596d5f8ddca577782f450ac285d54ed6fa4c949a88c41cfb/VIDEO_0_6596000.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1, OLYMPIC CHANNEL 3
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658189555~acl=*~data=hdntl~hmac=349831537938336eeaccb0d094ea07370fa8404dbef6b172c3d0bd0253f4f847/VIDEO_0_6596000.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1, OLYMPIC CHANNEL 3
+https://olympicchannel.akamaized.net/hls/live/2002655/OlympicChannel01685ca0/clear/exp=1658189556~acl=*~data=hdntl~hmac=c71e6b9a9f2641fdc14b58380919204f4b5e841a04d558cae728e05606030f74/VIDEO_0_6596000.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1, OLYMPIC CHANNEL 3
+
 
 #EXTM3U
 #EXT-X-VERSION:3
@@ -29,7 +53,7 @@ error: No playable streams found on this URL: https://www.rtp.pt/play/direto/rtp
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/chunklist_b2540000_slpor.m3u8?token=1658289600_b8a050cfdfdb57974bcb052eab8a18089509dfec
+error: No playable streams found on this URL: https://www.rtp.pt/play/direto/rtp2
 
 
 #EXTM3U
@@ -42,7 +66,7 @@ https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/chunklist_b2540000_DVR
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
-error: No playable streams found on this URL: https://www.rtp.pt/play/direto/rtpinternacional
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b1290000_slpt.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
@@ -72,31 +96,31 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/chunklist_b640000
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,UNIVERSAL ANGOLA
-https://playback2.akamaized.net/streams/21076186_10489119_lsij1avyyzbs7xl0afp_1/exp=1658186340~acl=%2f*~data=hdntl~hmac=9a2a37deee6d11419715c2034de25facb05e0433a74ba3793cf7d245fea4f750/media/21076186_10489119_lsij1avyyzbs7xl0afp_1@2756000p.m3u8?dw=80&ts=1658098800
+https://playback2.akamaized.net/streams/21076186_10489119_lsij1avyyzbs7xl0afp_1/exp=1658189566~acl=%2f*~data=hdntl~hmac=18d82574e86c9e5268530e68f854a3bd8496ec0bf8795874d00427f33eeb6e08/media/21076186_10489119_lsij1avyyzbs7xl0afp_1@2756000p.m3u8?dw=80&ts=1658102400
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,TV MEIO NORTE
-https://playback2.akamaized.net/streams/3332377_10551554_lsibsxlok3v52td7n0e_1/exp=1658186341~acl=%2f*~data=hdntl~hmac=8455d1afc6d583871c49e8a7d6120b182dd421ebbf38ab4c0a08d0fd30a83500/media/3332377_10551554_lsibsxlok3v52td7n0e_1@696000p.m3u8?dw=80&ts=1658098800
+https://playback2.akamaized.net/streams/3332377_10551554_lsibsxlok3v52td7n0e_1/exp=1658189567~acl=%2f*~data=hdntl~hmac=0043940de34350a5e53d4efa6b771cba4c052022d05cafd8a689f3c735988da1/media/3332377_10551554_lsibsxlok3v52td7n0e_1@696000p.m3u8?dw=80&ts=1658102400
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,VIMEOGRAVADO
-https://23vod-adaptive.akamaized.net/exp=1658112978~acl=%2F3ec1373b-11bd-47b1-869f-6639844e2c4e%2F%2A~hmac=7a1f629c31f972fb017c28c007d01aa58dc3108d8595aca950c1219dc6fee339/3ec1373b-11bd-47b1-869f-6639844e2c4e/sep/video/77f8397c,8d322e52,b6f97688,7ce0f7d6,0c00cebd/audio/c06cddb2,621def6d,6556c91a/master.mpd?query_string_ranges=1&base64_init=1
+https://23vod-adaptive.akamaized.net/exp=1658116204~acl=%2F3ec1373b-11bd-47b1-869f-6639844e2c4e%2F%2A~hmac=ec1abfb1935979530cb7255e00533eba4b07148777d24c7dbe047c3af50b09fe/3ec1373b-11bd-47b1-869f-6639844e2c4e/sep/video/77f8397c,8d322e52,b6f97688,7ce0f7d6,0c00cebd/audio/c06cddb2,621def6d,6556c91a/master.mpd?query_string_ranges=1&base64_init=1
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,YOUTUBEAOVIVO
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658121543/ei/55jUYr6xJ9Gt8wTV6bH4Bg/ip/20.10.131.218/id/Fof55uxFeSs.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr2---sn-p5qs7nsk.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhnHHQlPx4w0vkuECx8awvlgUixw/vprv/1/playlist_type/DVR/initcwndbps/68750/mh/Lr/mm/44/mn/sn-p5qs7nsk/ms/lva/mv/m/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/beids/23886219/mt/1658099552/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgJicw78HqlO9_lHgJOAtJiqD_AWxCb-QikF07yPylbyQCIQDekI3CVyf92Qt1Nlksbtu78ZPlmV34l32aPSTdALx-uQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAOZT1BYdJ_OzArH3icQDohZ9tpqLKFFmsqBPe_HYSXdfAiAv5aTFqbqzLiAkzWdAx3lPEk4dBS1dDOJTJwA6hsIfvg%3D%3D/playlist/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658124769/ei/gaXUYvrdK4mL8wTa6ZuYCg/ip/104.45.194.198/id/Fof55uxFeSs.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr1---sn-p5qlsndk.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhrZErWyxR7MPpRJ2BhtwFflBeRo/vprv/1/playlist_type/DVR/initcwndbps/83750/mh/Lr/mm/44/mn/sn-p5qlsndk/ms/lva/mv/m/mvi/1/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658102674/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgSKJABuwu_gjpWkparJhMX_PUTRodycPuHGNVqeMGxwYCIQCHzUYYZGCdEt8iyaG9ahgaAEc7_yawf8E_8u_IfKuo-Q%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgXfDR5SjNj2v3fkGqoj4kL0tQ5QK3sO7Ng8Jgg_q1mHACIAmPa7j3uNmKa9tm1bGE-5s0kDpa_ollANwaS03oj_1W/playlist/index.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-https://video-auth4.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=299114824&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDExOjE5OjYgUE0maGFzaF92YWx1ZT1VeXoySjV0UTB5bFoyKzVjQVZHdzl3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZGJhNjAzMDMtNzlhMS00MmQ5LTkzOWYtZDJkMjI0NWQzODJi
+https://video-auth1.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=870884862&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOC8yMDIyIDEyOjEyOjUyIEFNJmhhc2hfdmFsdWU9b2JRNDdmSkpqSHF3Qk9ZY0I3V2gyQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZjZmJhNjhkLWJhMzYtNDIxYi04NjI0LTBmYTM0ODcyNWQ1ZA%3D%3D
 
 #EXTM3U
 #EXT-X-VERSION:3
@@ -108,7 +132,7 @@ error: No playable streams found on this URL: https://tviplayer.iol.pt/direto/TV
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
-https://video-auth4.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?nimblesessionid=299114886&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDExOjE5OjExIFBNJmhhc2hfdmFsdWU9YzYrZ2gycjRsWFVxSUZucHAzMzdxUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWYyNDFjNDEwLTMyMWItNGYyYy04OTc2LTRlMWIwODkzMjc1Nw%3D%3D
+https://video-auth6.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?nimblesessionid=209955375&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOC8yMDIyIDEyOjEyOjU3IEFNJmhhc2hfdmFsdWU9bmdxOThUM1RYd2NOQkQwTkJpTDUvdz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTA4Yzk2OGQ0LTE1NDUtNGRjZS1iZDAzLTM0OWViMDFmZDMwNg%3D%3D
 
 #EXTM3U
 #EXT-X-VERSION:3
@@ -121,43 +145,43 @@ error: No playable streams found on this URL: https://tviplayer.iol.pt/direto/TV
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1 tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
-https://video-auth4.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=299114967&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNy8yMDIyIDExOjE5OjE4IFBNJmhhc2hfdmFsdWU9dG1yYW5NNE5FdElYUmhRVHhwdldPUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTFlNGM5Zjc4LWM1NzgtNDI4MS04MjQxLTFkNDNmNDJiZjQ1OQ%3D%3D
+https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=209955409&wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOC8yMDIyIDEyOjEzOjQgQU0maGFzaF92YWx1ZT1rTTJBaVl2Q0wyK1ptRSs2Q0luZ1lBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjBiZDY2ZWEtMDBkYi00ZThlLThiOWUtNzk4ZmFkZDFlYzBh
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,MINAMALUCA
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqQEjMxLtMBOHv3AKgF5zN8N_ljg9jmd6IjmlUrfNGobRItjXQo6pJ4FWUdwRF8icS2SuH57iBAog79Yne0xgVuc6SL6-pyFTbMbvcEoPJsyyPRHInTlNoce2QIGfvnVggNWPHa5sTVH_KPnJimMWLfXaog6yHP8vF9ilT0Lm39797vDTof9j1204wvVqoIXB7sqcBY7CRmE34HBEuDqdqPM1snP6d7Bno7Zpzn-qY-JcavA3nFx4gTCSMUZS7WgUhMISlAhRzL4cWO0-Zfw_xByTtwhA-1E4l4YGccqhNH375ByQ9CcFC4eyQhYD3y5R9nHMc_gzczomIRQhFHlhvHo-pz8IUu1_NOHDayYkZN9BXZxaIMBL4SZqLeEAX9rr2To8ciEbrfRvV99Phco_gsQ6ij9H3eS9EvuMYkHgTv_B5SU1A6qqVyL81YRiaAQt6oMPFUGPfSfvaG1ZG5J1f5sM72_UOX0_60iTHDjcG730VMRlX8kqOCfUsPkbhmM6170JVe_3Kv5LXL7X5ZQyfwzSljroW8q0z4L9Qsw-4_t8Nf3fQQ5GjvpkcTAkfea4tYYf-1e5FR2sJcRAW73wLdv6uln2ie6WBYND4y1_wX3vTwu6vrt_3_JM550UkxgIRk4zTx6Z-n1aU5xGaRGLT9-YkOUMt4gnLPFSTSrgnP8_SZbzx2J3llQUyu3USV_qyCF2tk_OqyxocmMlNzum-79DIIK8oEaDBvx79iJNrSfi0o68yABKgl1cy13ZXN0LTIwmwQ.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqUEMM5V1bCV0RSa_Rh1v4DBTuRokEL1JOO4F3Dd-5Yz7y3UEjmGKVzXznw2iUgOkjMtCFKEi-9r2-RkUu9dfYjOm7rcZwxVuNrXINRAgnOp5v4-5QhSjd7VIKcNUGg6WYmfUtYqXv3s4_eWHRQelcHGPwGKDi76mQ2QOAnSuG4Q_cQ3yUUQeBQj68ZFbp-uTr5oLacxwghpn7dyweauuT_Axqy9H4Q6fQaYrFcXlBE-4K8-BpOSlE3SeGSZbK6ZqW0WqD9FYoYUV3ypR_4Gn0y32emAN2Y7m7fcPdAqDoak3WShnCYm9LsBGL2yq7GbCw37fh8erLccsWt0_ZBeTEwCkHAK7qtlp-eo-bUQcrpfhNPR5Ic8s6LUkutGL50J5TUq_52q-Bali7vuwRv1PHVMnida84iKfzAgIV6JJPT--xB-rwxXPaYSePignnuDcBZKJJSaU9WY_lyXVekZk2La2SauMO3yFWTlbpqR_nPMJzIWmh-wJS0AHIlAXTpkdIQCGE8uf9XTQqD2Tq9DFg0EhhlXGK4F4i6loPPs-MdgfrZmIaVPeNUxmKRSU3gU7b4e2JM3N3vfp4HguEhFQhaxd907tqAqdBVyXu3nMLNjyA_gkj9-zVQSi-QRpV5NvardTzXF9oa0BY7i1Wp8pceDm43Fg-SWwlrDqaTyCh2n1N51TPM53c1Z29eHUJdzuLIm3ZL-ES2MG-yVnFPSRabvn2FBkhkmGgwsDsN2XiDYf4fGQ98gASoJdXMtd2VzdC0yMJsE.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,CTVCLASSIC
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqsESA70wjN2E9vJxhFGDCavth5_YFRHYPu-hi2ujyPMhoAxafSxa_N0sQLxVqRO0EENFohGC2n0lFTdl5FcGQxjTWhSQGz8HXKGlaLbweqfs1QJFQAJPPx2WC8_N8n4iXJt-NR2r5vokSCuEAJPb8SnMYO78lKagulHi_BSfivFarMJWLYSV3Z8_Lva2T_XCjWgIa0aaPqxDpGzecRjNJfhcV41K0tjDh63cB-aWz0Lfa7rhoDVjZZOjhvvyFwLUGzs1D3QfvctDSkFf-0CmOFoPW95i3ede93hh7aWLm6POnQFh5JzQOAhoZ9Hl3jyt_E7zkR0BnHnFZQ2Xn_tBZf197ozGGPVPL_4c9PA2dibAAO_cE0rkP3bSvtmZumts39o6hmSZyJJhfUEMXiuEAypmeROIsvz4ORwhU2ZJtRZ6uilAYGtQeLTg8XULv76qRv3_bsyjSAVB9vUIdzYKgs3-mEyhQNEOE4wK8gGHgPxfBrp5QphvTmX5I-qsusLjhIrL4VsqRoNqnS2uBbziRzsnaTQy7HEqqchrFxBUYYe3qZB6vGmszcNjqkKMje0dmZlt015p8XPLJtrrJC_yAWm6c1WXZedHX6JFtN6jHVTO21HjNVaXzVUIvVMHVQ8DSQexAMpIU1DbK3wAw-v0gor17Lf2M5ldWtltHdAM34UTyR2KXy_9zN8DA3IoqfX7_KT6c9_JHkaHSXJvNdIjoMgzly4BE1UVRfo6-tJGgy61rwPdeadfAyD5sggASoJdXMtd2VzdC0yMJsE.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqwE7bWBUYz7N3ePyrWPkej7pUE7KV_ZqNuthyqZyfEd5j4exGwHMZnq01m-Vx5ve3kGqi1A1dObJFLXdASeywuKOziW_TEbLGMEpQOlB1vrr2-031ns6kS5LK63S8xBal6iUMBxErt2OnKre4PkjjUoJrAskp5lyORFnMLonIT_e-Cv5WwPxcQYv3u2mvCv5Gn2-fELbXxWuVIDRShozqlSKnPDXRoHXcfuy0yqN0IwMyyR9eny4BoRXfrKpNyLoDk06MlAqH8Sr-lM8pw-CuFksuMgj-LTnqfwNSI_LcXEWbHsUhByOU4TdKTQsP-C0QLVm8g9kib1KdLuklh7qH_eee4mqYl8wIYjRoumVFYaSpehz5Iv0kzqDXpMlo3MTmPIcSduwEzZBpwQMNd9PDPcWx-mKMPY1lcwnGS7s4PRT5solIkxqY10DlQ9uEE9F4m3YnaxPfoJmixkZjqwegNbyQawKh14fzIcm_hce9xjesC8xGqZigdfENrBw_bK1es7Pa_ao8-Ugve1NFtXc7BF8IK3JJZltHHWbg_FlNQj-cVOhuBSJxaj2eoD3l3QgctkIRYyUrXl2P35qm5JNS-_Ev0tdjic2-L1iKxmqIxVTRvAj9oGzHSYoN68SMidgfwnPamDwqaIsdfhuLoiHaoCNkv0FQxVLqlydlNyajPzkyhdyAdn_87C2t34suQb6CSl92rwkXZlAFrxL9a0Juxk05c_C29dyvSNDHLmJhoMU4vjc2a5d8cABwIFIAEqCXVzLXdlc3QtMjCbBA.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,WEATHERNEWSLIVE
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CrUEZ4cHV01hiu3JpulEr5MsTYzQG3DQxG_uX3rS-kwq6t9lH5emTlLXiRPJYR3puGuXiJg7YUb5pzAUrE8IIL1GMtBjD09Y4S5EG1a5aTCLxzkG73DinZXESKrX1_q94qzTrP0sy7yCARvKn2Ew7PXbPgDiumd0eYHC0qEEYND_mCZ0GAYd5y9AglHrf3zrhdyLYlAyx_xwYc2Xnl-uHbkgEVqtWASP9AY9VT3wxEIQ-re7iLfAsqM0QVcNwWKZIpa7dYg3ffpVb9eS3GexYBJQUYyhHxBaFC-wD8zn7tPIO3MGQh4ylYeV3yuuwJtWNcxBf62O1EqL-P9h9ICbeaxA5mqur0BI9G3k6yygCRMaNGyYR0iXmpSMcadLJ25d0rUE8hsjh7h8a_Taqtft2kam39dFzIWs5A6pbUgWS5vPWVeDdDZT2y--AxVE8-rVxw0N9SLp88uLisMoHC5158YNYijBAwz1LS7Vv_ogVJVlr69T_kvmUS7nKk_Mmlzn_fHMu34IEqJBE7HbGJgNf-EuQXVq3ppsvHGmOLEU2PakddIbvK863iW5fQZgL5hp8JpDfxkRtx_ddYQhYbR1y0ClEFF_iN3lDv0lNkipdkX-8Z2gVDjfANNHj26vPz5kRlyFfrHsfzJqV7GPvG9aoJek3OGVMuXkgnNc7xNKzEUJo6mOd3rFcL1Ml3N6x9uja7d4k9O9VIlLQhdSo_euloehmYq6dc7fnxayUsMSfl_7mMm112o02RoMV6jJ6umx47qrUlZLIAEqCXVzLXdlc3QtMjCbBA.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CrYEghzJ6vDZBvad_U6gBQpildYq3brIGtKoJKRm84fNwxKybtUqz6o9r1pOZT_1Q0-DsxiD_xuBHAePHKILAIB2ps98RTlpdTlDImdqLDtjz7MgcUg5_azNeAuvCobCJ1HKnAo3DZ8dlm4FuRTWMx1mcOhTfN6Kk143s_ITKQtphwFqTxYgCxQDPyO1p6L-4l342CpapNop-tGmNrDOSe824_2h-G3RlC3EnVgGOAvb2diN-MBR82d-S2Q0CdpyIWcc6XqCD_kjnmEaH6DomWJoW3omYEtVvo0eu0O8N4wBWkvHx5Pxwyc2tDCpLU_5lzFpjcxkOKsHkx0JeG3fnGjb07f-5is4IVq2NWUegst8VgrDedZdYlzx-7TTWjceVwXjpGrUrZ5u3IXPcaOQQZhOy3LxISlslu9x7pb5pF0DUWtIN5dtDifMwpXyqR7ypeEAfx3Tb2FEwID9aaxz8a80xYap-Ng7jHMaiwK5HXxV_2q5pdIBlEv6_NtTx3AJqEekIXZw01V4hebAw9GZ-cei4k0xv4L625qUZadmK6Fy-8ZTFBzIGfj4LQL7_LYiusIuek-5in3d26_FpDUflEZp8Ootle1zgx4FhLgOxyx8lVB5Ofx7rMBiyrOt4B8KGs1mfTl4MdlWz7TOMHx9oDTNxv68-mr74J5E1aoK6W3v4gaHcYalINfvUKXDkgC_cKqa33z2MEwM3frw_feSkUBBa8uTWTxcvlHxE3f_GGwtquXcQyXFCUQaDOReJ8ENGd29tyCnqiABKgl1cy13ZXN0LTIwmwQ.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,LIVENOWFOX
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqEEeX43hvglfIiI9BgNkdMPWPTpw4wDgFnZHH8co-dYvZ8ViG29m68hSVnB4L8ETWWXMM1XWX6Rq3023xX68Z6zUz0Bhk3xlbE4PyjXpuoJHB3emi2UVb4JCNVVoO1pdxTpTtsif3EeT3rNvpcE3Pb0l0x2EmEy6WA0yOLO2o1bGiqHapMG9YJFa9_rDYG5RECJpGz8CmPSaAAJY6_ng6Yau8uQnLbYANKRuYOEFmjcpYWAbv1ePFGl-DgfoBaHITRGq6o40EghKb7iNFlN9wNMkafYHi0HL01oAPmlQWQts6X5JcWG7CFVMlSeMg6qkIoeObBIRQG5vIDGzSY4mlDniEKZvSouxKQUzRBNeFbjHwd1XdZJBNC6w3jVV1LA7BFLk4jyPElku8YjzXZ4442_7gSTC_pcpuVwidie1wrwnlbCj7DaVNRTVPmjGC6paLtgQhrzQelTFj2l8UfvqtXDm_tyx34o6kVrLL1ol0n0QZbx3c1JkpSQ9Hyk4tPqTuEEBXEIvqx3zqTUm1uxcC2r4wKoGdd6CVg9pgun88of2kwstu3lUahSIrA-9RdhEiLbgP98qNN8HDsw887l46QH01YUwkcgJMIf85eFv-HIPTmXvQsmACNUNS19uARIyLs6WWRINq8FDh0432LP6mlQIpaEbqrJtz5u0_kW6kDd_PSZsjcDqH8jnCPz44YCuO8DhDCZ3hVfU449SLrw-Opx1wQaDJ46ELdNLwgR9ch1uSABKglldS13ZXN0LTIwnAQ.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqME8jjWVIyucBO4DUlrOp4HSq-jMn0P4B1q_hYOkCGjI2FUaSeCJ5yoZWeZQu8DCBkBZwLQShWPq1OP_D-Y7Hw9KVu5Vggdk9D8L3v2tnj58RRF1T2HYu_TYznk8Z8yqtK7h7YrXxGPuRxMrcFdhX9hoXe-JQWcAS-TKLfRe-8i3B7QimT78X0qla41wfBx90imxOcH8b741F-iwNae1hwuHz1sULlfOrA8wDqbfu7BEtKF0Nsnb_OcoUrRGv70CtiZVNam4eCIt6Ix6ATKIPxsxmyPntifPnAfXMGjrtx0kX3cq1nHA0nFIRO0kaETOcjPryCFCbHRGGzSbQxcrQgZUS7rrRl4Lbhlge_lL32M2PZlzowyYwYQUytg4sy4hp0wWn0KRg8ZxEW4DBUkR3EbMKKiHmqKWyP_MP1yobZYPkAmTDIhR87b7qBzCoPrSkBOMDx3BtKjkb8tfe6f8_sJNKlUAD-4HhzBbdpChmHgcBliXeVlHQRj4RqtnoTshAQA9zYU18v26xz4VTkgJY0Hs_VTx8VYNap9eBeduoxf83TspBOtY3kKTK44TGZJyH0q0CjgqiOcUiDNlYq7eY-PTpuCaTPfmeUTIOb60tQ2Jelbri6GnZzaz7LUX3rcBkS7KSUe8TjfTFt9ZFUXG18YdAJmja6WpfiAvYEEPWG8dRFiZNa8tD669oimYkokTCDGv4zG78A5bK09qnTHXsZ5ZOthPhoMo2mKdFD34KIvcAinIAEqCWV1LXdlc3QtMjCcBA.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,TELEIBLEA ITALIANA
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqMEMfhdh__dR7MGr2lAugiEBw4uHlreaAp7izrvsY89O_kWWbFwfmOM-opOGVm_BNXEB8XtiplaC-D_AZzElF2O3ODDPZGAmoTv0iGdSeq6WTkvpEn51eVFxEPeZn5hkkWes0l2lQvvsISuNuhvFBlG0GfVjE7Y8azBZDlkoWZPfSrYn3GfudGQgRqvGEpUecuaB6vRGm8laR2CqhFPeCbOaHFtAcmHcMpswChBb5gi_Buhy_H1Jhm0R6XxE-5-eEYKijlj6HoqaXWfSxkOD2hZbwTRPg8gG1XttCvxDeqbF2o2umKBB3pf6G4VjUtQCwJQATqyXusJigc77daLDRlumYp_MODw228TTRw9tZwf3nspKLbz3zaZLe3aPNqUiYTkMBnu-_C4VcLTlGTNZXr2_DYZMSzPygcw9kA6ov2cqUIsi5n_v0Q-xBbpk_LU_8mquL8CvjM-l2CtrXErZ3-OBFWcxpS7V9qlBM9eFDz0bpQxa7QAhcDYOwYdGB-O2Hu3VkUnIbkx1D0vqZ4nIk3STdLCdM81m_LbpLSCGrNVUCPZfKpSs2XHxLfa1j6fTyXedp_Rny1feYSeoLnZJZ_ZHucqKqoBN4PNVjgWXSD9FgbIUNcWtMCYxpc5oDTCHTFE0ko_YSZqfTkPk0yL2urIES7kjqoaKR7OUFxRU2x-o09KxqB9oNjTWJmxqxCNXxEo4mNfkRJuAu7vw25XGzGWFr0rqBoM5eGuRAhXOH_LSP9lIAEqCWV1LXdlc3QtMjCcBA.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqMEwGEzpDW5pdFYdKlR_LLKoDxI9DM9MW1RrgrnckI9hZzOUci63pqRaO5Jgc_gw0GkAYPjs3X6WPDGAu8OC0rj3h3rB6ZrXxEHkEJsEkGdVVUzXB4BKX8D8sY4mS4JOz-6M4poDiMizXIaYhcfhUS-hj3cfqpNsNClgIvhHv9Ngrp2FhRrpH1_mX7Gef7yPvsJUcqhwf7OSqI4qXVgW1G7J2KB7WX1rmTh4cfTqzpF6bTaZ02tlZGG8qIIxP1Q-fJMihtmrlGuudmLDE8Tk-wYuntl1hejnTs-DoiakQH-LunvUPtltkGg0lq7sj38n4F8EfxjSD4O5_X8QA6lQxYAExeG2L-Wx9mo0A9wlrLbb9pa_K5ziDszeUJQkq0Ls9iONhYE_HnwUc2UMmgsK4OApVVMdHG946fVhKlIefHLHxkGZey9wYWaCicD8PBsbwkw9pZlam9P0ITH3HHB7kDxk2No7e6eZaU9EYMN-h4mljPSZC45REI016zDN47bwX-hsyCnCKf-x8KyQOVnvHO1t4wHND-9ObIgdG7gcZ8gnBgDLJL6ypxF21lG4o9w1skKfu_HcBTlzsL1t7MtusT6bl6nBvWwXrFnory7t5DjmZ-z-eh8UQJNzG0rD5JtOpSzHDih_48Enb-iZRtuHGj2XRy59vvqzI6E1bA7CsZPzwkN_A3PPKWnnCCMnl2I-aSJ1RRUzuTL0_qUyiPGJLzo1bnZOBoMqfm__yrQTIVnTgOxIAEqCWV1LXdlc3QtMjCcBA.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,PULARITV
-https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CpwEHlqU0XW5U0yJTpYBzwR8IRv4BkTPBluWewdPpkAI88fE24NQG7Gy7HPj_LNH1eooohyLRUAw2ZjWExaCz8tYwhL__olo6WcnaQ1Oi_u29U8eIzPj_3-EiJuz2aaN4Je0ZHMJTYM5I3-iq6j01Ixu6ZPGwMuaIrs-Gb8HZNSVxeORAqfhIG8Us0Ywauodj0cagfSmxOs7V2zX4BiVsAg8jxOnyEEOiDdEui9f0RM6nYdoLLmYuk87CraNwxugeGqnPzRMR7W1QLgtbViWuL4gf42APHWI-Y-eWv9DlmDNk3OlOe2FY_gT1IqyiJ4Xywl31tGLqfQFMbMU8JY0t76t6toQbYNhyEJhi9PtonqISHtpDlt_5pJDmnq4YAv2EVqbKeWofxxWmZYgPhzUkItuUKN0nckl8oOp_xCP8u-1uauBRUKIj70vZRfoP35p5wMRhkn9ePHjCZ_JxrGBal7ZbZ5UwwF0j32UqCupIrMWvG-iyt1aUFqZ7Ipn4bqM-8oo78SOj95TNBPYXQuLjl-3K-1Xw0MnhCbnSVRWBv-URfohmWoff-l1QPPHkvC76SVJYEryZ2Qd9ipCVHDJJyjVDZyvNKgrddGyvhr2ziR_LBX2RIJAr1n7b69mGtrOAAZpLMg1jrMak_TLge_VqTWqtM9Hotr4IgWxP1OUEyqYWF1Wev7fky9Rl1tD_HxFxLh3jEO4vf2sO-3dcxvuGgzdHARGMSfny7FY5B0gASoJdXMtd2VzdC0yMJsE.m3u8
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/Cp0Eu-11gIkWty15x59q90VbixwoRu-N9HDBHHd2ueAFcE9_xHGiAro-kPiW2N3ifyptZkeaTLzuQFUDjiBi6HabsXQRts__l6NvCZHaggwB70RmYDltaCPrjIVKDcmwTjDQv2O9jdMT5w5iDqZ8E57u1QsqGbKiSjxm3O8dmAwclTS4H6Bgfb6_rmAInpKoi0zAw1c5uE6f52FsI3wTDAP_Fqx_d1uEF_amfIf5B3DPS8VbAC6i4w4Iwh7zlVmReyeQj5Gp3MuInXHyByxywDyDOdl4AKjsIG-H59_gOtxDvSH3nD4TdLIqXixv29z1J95IKs3uGghhuTlCwbU2mRDolodcUYNK_TXLfIwFbwHdGs_LzagZocVcCOPLG0_2-zKZ55akFDF9Oxmy2LiYlxqzmxDCVYpyDoTMhyHRadv3y-zDwfeuHfhjNMIv_YNNAq0cSFy1Yn3cWqjSkIwj3mU83SPLQV2WofnQbfFDh4tc5Mn8TvITtBNg33ZxXGKnzdxHrHIKB7jKWhdSGIljRS70snRyROfwGaHPlETdrQCsuGujzwl9pf8RmB94sTiHfp4bS45BOmXLx0cpU0m6fny29gacVG_Ru4i9k-0h3HWJvNvkPCSRW0QacdUjFoJ8sEywH-F9HWUBfdxYyI9tzN7INW2m5DpgP5fvdA3yvKxfMgE9bCZla3tzh2Dl085UWl_CjRrAb2CvecR_sC9KeRoMJbrwtB-IdriOlN3dIAEqCXVzLXdlc3QtMjCbBA.m3u8
 
 
 #EXTM3U
@@ -176,10 +200,10 @@ https://rtvelivestream.akamaized.net/segments/clan/clan_main_720.m3u8
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,RTPAESPAÑA
-https://cdnlive.codev8.net/rtpalive/smil:directo.smil/fmt_token/TtJ61x7Y5aBflqY3efU9kV1iMAad7miYSVJEL0zaefg/eyJleHBpcmUiOjE2NTgxMDYwMDIsInVybF9hbGxvdyI6WyIvcnRwYWxpdmUiXSwicmVmX2FsbG93IjpbIioucnRwYS5lcyIsInJ0cGEuZXMiXX0/chunklist_b1700000_DVR.m3u8
+https://cdnlive.codev8.net/rtpalive/smil:directo.smil/fmt_token/Y3lwFpt5Sd2M59iY5kxla6OGIl8gwPZ93QwmmNSrC_o/eyJleHBpcmUiOjE2NTgxMDk2MDIsInVybF9hbGxvdyI6WyIvcnRwYWxpdmUiXSwicmVmX2FsbG93IjpbIioucnRwYS5lcyIsInJ0cGEuZXMiXX0/chunklist_b1700000_DVR.m3u8
 
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 #EXTINF:-1,TELEFE
-error: Unable to open URL: https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS (403 Client Error: Forbidden for url: https://telefeappmitelefe1.akamaized.net/hls/live/2037985/appmitelefe/TOK/master.m3u8?hdnea=st=1658096181~exp=1658103381~acl=/hls/live/2037985/appmitelefe/TOK/*~hmac=8ca07b8f319394f8a0402e7836a1ea57266d14dd3a9911ced5a8d2231fb1f326)
+error: Unable to open URL: https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS (403 Client Error: Forbidden for url: https://telefeappmitelefe1.akamaized.net/hls/live/2037985/appmitelefe/TOK/master.m3u8?hdnea=st=1658099517~exp=1658106717~acl=/hls/live/2037985/appmitelefe/TOK/*~hmac=fd438cdeaa2c613e9fa896c6930e9a61b751e54a1571c9fb2e9cc22c68ec9036)
