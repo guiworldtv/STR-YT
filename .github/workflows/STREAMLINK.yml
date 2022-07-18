@@ -29,8 +29,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",SBT REDE
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.youtube.com/watch?v=ABVQXgr2LW4 best)
+        #EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",BAND AO VIVO
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u  https://www.band.uol.com.br/ao-vivo best)
         
         #EXTM3U
         #EXT-X-VERSION:3
