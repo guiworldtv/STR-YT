@@ -63,8 +63,7 @@ def generate_youtube_tv():
                         video = result
                 video_url = video['url']
 
-                channel_no += 1
-                channel_name = f"{channel_no}-{line.split('/')[-1]}"
+                
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
