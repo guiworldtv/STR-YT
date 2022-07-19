@@ -24,7 +24,10 @@ jobs:
           pip install -r requirements.txt
           
     - name: execute py script 
-      run: python ucraniatv.py
+      run:  
+            pwd
+            chmod +x ucraniatv.py
+          ./ucraniatv.py
     
     - name: git add
       run: |
