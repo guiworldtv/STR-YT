@@ -47,7 +47,7 @@ def generate_youtube_tv():
     }
     ydl = youtube_dl.YoutubeDL(ydl_opts)
 
-    with open('Hillsong's.txt') as f:
+    with open('Hillsong.txt') as f:
         lines = f.readlines()
         for line in lines:
             line = line.strip()
@@ -90,7 +90,7 @@ def write_to_playlist(content):
 
 def create_playlist():
     global m3u
-    m3u = open("Hillsong's.m3u8", "w")
+    m3u = open("Hillsong.m3u8", "w")
   
         
     m3u.write("\n")
