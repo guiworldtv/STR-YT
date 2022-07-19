@@ -9,7 +9,7 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/clarotv.com.br.channels.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/redeglobo.globo.com.channels.xml"
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/bitsbb01/webgrabplus-siteinipack/master/siteini.pack/Brazil/vivo.com.br.channels.xml"
-#EXTM3U x-tvg-url="https://github.com/Sphinxroot/share01/raw/maUFGster/epg_ripper_BR1.xml.gz"
+
 
 #EXTINF:-1  tvg-id="N/A" group-title="N/A" tvg-logo="N/A",Teste MASTER FORA DO AR
 https://raw.githubusercontent.com/guiworldtv/MEU-IPTV-FULL/main/VideoOFFAir.m3u8
