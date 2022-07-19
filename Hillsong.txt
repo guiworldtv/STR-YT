@@ -1,4 +1,3 @@
-c/TribunaldoJ%C3%BAriTJPR
 channel/UCBlhI4thciKCIW2kkH6AggQ
 c/HillsongPortugal
 c/HillsongBuenosAires
@@ -12,4 +11,4 @@ c/HillsongItaly
 c/HillsongSouthAfrica
 c/HillsongChurchNetherlands
 c/VaticanNewsPT
-user/televisamexicaliof
+
