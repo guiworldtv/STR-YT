@@ -31,7 +31,12 @@ def get_live_info(channel_id):
     except Exception as e:
                 return None
 
-
+banner = r'''
+#EXTM3U x-tvg-url="https://iptvx.one/epg/epg.xml.gz"
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+'''
 
 def generate_youtube_tv():
     global channel_no
@@ -95,7 +100,7 @@ def close_playlist():
 def generate_youtube_PlayList():
     create_playlist()
         
-
+    m3u.write(banner)
 
     generate_youtube_tv()
     
