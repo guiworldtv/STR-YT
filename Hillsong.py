@@ -458,13 +458,13 @@ def close_playlist():
 def generate_youtube_PlayList():
     create_playlist()
         
-    m3u.write(banner)
+
 
     generate_youtube_tv()
     
 
     
-    m3u.write(banner2)
+
     
 
 
