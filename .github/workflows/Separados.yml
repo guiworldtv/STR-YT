@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute py script # run sj-gobierno.py to get the latest data
-        run: python ./Hillsong's.py
+        run: python ./separados/Hillsong's.py
           
       - name: commit files
         run: |
