@@ -11,3 +11,4 @@ c/HillsongItaly
 c/HillsongSouthAfrica
 c/HillsongChurchNetherlands
 c/VaticanNewsPT
+user/televisamexicaliof
