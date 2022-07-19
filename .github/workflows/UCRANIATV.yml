@@ -23,12 +23,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-    - name: execute py script 
-      run:  
-            pwd
-            chmod +x ucraniatv.py
-            ./ucraniatv.py
-    
+    - name: execute py script
+      run: |
+          curl https://wttr.in/ --output minhalocalização.txt
+          pwd
+          chmod +x ucraniatv.py
+          ./ucraniatv.py    
     - name: git add
       run: |
         git add -A
