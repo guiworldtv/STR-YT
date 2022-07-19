@@ -27,8 +27,8 @@ jobs:
       run: |
           curl https://wttr.in/ --output minhalocalização.txt
           pwd
-          chmod +x ucraniatv.py
-          ./ucraniatv.py    
+          chmod +x ucraniatv.py 
+          ./ucraniatv.py     
     - name: git add
       run: |
         git add -A
