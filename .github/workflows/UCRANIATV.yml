@@ -24,8 +24,8 @@ jobs:
           pip install -r requirements.txt
           
     - name: execute py script
-      run: |
-          ./ucraniatv.py     
+      run: python ./ucraniatv.py   
+      
     - name: git add
       run: |
         git add -A
