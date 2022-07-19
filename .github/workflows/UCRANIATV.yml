@@ -27,7 +27,7 @@ jobs:
       run:  
             pwd
             chmod +x ucraniatv.py
-          ./ucraniatv.py
+            ./ucraniatv.py
     
     - name: git add
       run: |
