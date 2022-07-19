@@ -24,12 +24,7 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          youtube-dl
-          requests
-          beautifulsoup4
-          fastapi
-          uvicorn
-          schedule
+          pip install -r youtube-dl requests beautifulsoup4 fastapi uvicorn schedule
           
       - name: execute py script # run sj-gobierno.py to get the latest data
         run: python ./Hillsong's.py
