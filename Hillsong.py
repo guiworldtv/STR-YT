@@ -18,14 +18,8 @@ def get_live_info(channel_id):
         url = urlMeta.get("content")
         if(url is None or url.find("/watch?v=") == -1):
             return None
-        titleMeta = soup.find("meta", property="og:title")
-        imageMeta = soup.find("meta", property="og:image")
-        descriptionMeta = soup.find("meta", property="og:description")
         return {
-            "url": url,
-            "title": titleMeta.get("content"),
-            "image": imageMeta.get("content"),
-            "description": descriptionMeta.get("content")
+            "url": url,     
         }
     
     except Exception as e:
