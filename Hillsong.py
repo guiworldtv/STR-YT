@@ -18,8 +18,14 @@ def get_live_info(channel_id):
         url = urlMeta.get("content")
         if(url is None or url.find("/watch?v=") == -1):
             return None
+        titleMeta = soup.find("meta", property="og:title")
+        imageMeta = soup.find("meta", property="og:image")
+        descriptionMeta = soup.find("meta", property="og:description")
         return {
-            "url": url,     
+            "url": url,
+            "title": titleMeta.get("content"),
+            "image": imageMeta.get("content"),
+            "description": descriptionMeta.get("content")
         }
     
     except Exception as e:
@@ -63,7 +69,9 @@ def generate_youtube_tv():
                         video = result
                 video_url = video['url']
 
-                
+                channel_no += 1
+                channel_name = f"{channel_no}-{line.split('/')[-1]}"
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"UCRANIA\",{channel_name}\n"
                 write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
