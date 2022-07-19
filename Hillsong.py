@@ -66,8 +66,7 @@ def generate_youtube_tv():
 
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
-                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel_name}\n"
-                write_to_playlist(playlistInfo)
+                playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel_name}\n"                
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
             except Exception as e:
