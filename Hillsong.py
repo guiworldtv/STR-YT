@@ -32,7 +32,6 @@ def get_live_info(channel_id):
                 return None
 
 banner = r'''
-#EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 '''
@@ -88,8 +87,6 @@ def create_playlist():
     global m3u
     m3u = open("Hillsong.m3u8", "w")
     m3u.write("#EXTM3U")
-    m3u.write("#EXT-X-VERSION:3")
-    m3u.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000")
     m3u.write("\n")
 
     
