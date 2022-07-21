@@ -21,7 +21,7 @@ jobs:
       run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          curl http://gg.gg/epgvn03
+        
           
     - name: execute py script 
       run: python agrupadordelistas.py
