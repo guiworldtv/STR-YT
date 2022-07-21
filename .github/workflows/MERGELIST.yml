@@ -21,6 +21,7 @@ jobs:
       run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          wget https://gist.githubusercontent.com/guiworldtv/5688b42019ef511b9c2a1a4943571489/raw/e36c98960e7d775dde7e56e7ebadcc44889f82b5/TESTING%2520LINKS.M3U
           
     - name: execute py script 
       run: python agrupadordelistas.py
