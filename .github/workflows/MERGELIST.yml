@@ -21,7 +21,16 @@ jobs:
       run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          wget https://gist.githubusercontent.com/guiworldtv/5688b42019ef511b9c2a1a4943571489/raw/e36c98960e7d775dde7e56e7ebadcc44889f82b5/TESTING%2520LINKS.M3U
+          wget https://gist.githubusercontent.com/guiworldtv/50a535705ddecacb07d7e3364d9d9aac/raw/a50329cf164db42252f9cc1f8ee94ffa660a7663/listiptv2.0.m3u
+          wget https://gist.githubusercontent.com/guiworldtv/10faa5f706a6d8f9fbeacd653da76db5/raw/64c48fd3facaa4fa145d57cba57a98f1f63c5e26/ESPANHA.M3U
+          wget https://gist.githubusercontent.com/guiworldtv/c51a5891fed16d236ada62ab9292923b/raw/dfb36a222b6770094e1be3201a74edc291ff94a2/ITALIA.M3U
+          wget https://gist.githubusercontent.com/guiworldtv/b5db2465556dc55b66e13650bd5f5d37/raw/5c1823bd6e87677826968010f91ed70c0e97422d/ARGENTINA.M3U
+          wget https://gist.githubusercontent.com/guiworldtv/1deafeadff5f42cbb2e97f6ab849e486/raw/273eccb6dc730de4f7fb1c3f451b8e8a5b9740e9/JAP%25C3%2583O.M3U
+          wget https://gist.githubusercontent.com/guiworldtv/ac89f3a920d6861217f33ecbb89db4c6/raw/399aa2f78806fbe799736b33b453b0396810eb87/CHINA.M3Uu
+          wget https://gist.githubusercontent.com/guiworldtv/085fe6fa7b12690ffbd6dd86281c3fae/raw/8822a75570f8a89ba89a187c9ae3b54f1d54ca52/RUSSIA.M3U
+          wget https://gist.githubusercontent.com/guiworldtv/2da859d4a2c98fad73ad688ca2cc9b5f/raw/2eb7bd0f8fd3efed3ba4d6b63d7d1653054a6654/ESTADOS%2520UNIDOS.M3U
+          wget https://gist.githubusercontent.com/guiworldtv/f8fc64c7e2ab27d1267ef4ce308d1214/raw/0bbeb4ac172a7f1868b34e87d86329022f07c6df/listiptv3.0.m3u
+          wget https://gist.githubusercontent.com/guiworldtv/933dc80d36b060e91995c9818ac749d3/raw/908095ffa68a68c826190bd2043e8f09a471982f/listiptv4.0.m3u
           
     - name: execute py script 
       run: python agrupadordelistas.py
