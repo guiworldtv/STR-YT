@@ -21,7 +21,7 @@ jobs:
       run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          curl https://somafm.com/m3u/7soul.m3u -o "SomaFM - Seven Inch Soul.m3u"
+          curl http://gg.gg/epgvn03
           
     - name: execute py script 
       run: python agrupadordelistas.py
