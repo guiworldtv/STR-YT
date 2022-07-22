@@ -10,7 +10,7 @@ channel_no = 0
 m3u = None
 def get_live_info(channel_id):
     try:
-        webpage = urlopen(f"https://www.youtube.com/{channel_id}/").read()
+        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
         soup = BeautifulSoup(webpage, 'html.parser')
         urlMeta = soup.find("meta", property="og:url")
         if urlMeta is None:
