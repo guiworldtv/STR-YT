@@ -10,6 +10,7 @@ c/hillsongcalifornia
 c/HillsongItaly
 c/HillsongSouthAfrica
 c/HillsongChurchNetherlands
+c/tvglobo/videos
 c/Miramarmoz
 c/RecordTVCaboVerde
 c/RECORDTVJAPAN
