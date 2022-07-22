@@ -24,9 +24,9 @@ jobs:
           pip install -r requirements.txt
           
     - name: execute py script 
-      run: python ucraniatv.py   
-            Languages.py
-            Hillsong.py
+      run: python Hillsong.py
+           python Languages.py
+           python ucraniatv.py
       
     - name: git add
       run: |
