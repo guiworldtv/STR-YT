@@ -10,13 +10,13 @@ channel_no = 0
 m3u = None
 def get_live_info(channel_id):
     try:
-        webpage = urlopen(f"https://archive.org/details/{channel_id}").read()
+        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
         soup = BeautifulSoup(webpage, 'html.parser')
         urlMeta = soup.find("meta", property="og:url")
         if urlMeta is None:
             return None
         url = urlMeta.get("content")
-        if(url is None or url.find("/user") == -1):
+        if(url is None or url.find("/watch?v=") == -1):
             return None
         titleMeta = soup.find("meta", property="og:title")
         imageMeta = soup.find("meta", property="og:image")
@@ -55,7 +55,7 @@ def generate_youtube_tv():
             try:
                 with ydl:
                     result = ydl.extract_info(
-                        f"https://vimeo.com/{line}",
+                        f"https://www.youtube.com/{line}/live",
                         download=False  # We just want to extract the info
                     )
 
@@ -70,7 +70,6 @@ def generate_youtube_tv():
                 channel_no += 1
                 channel_name = f"{channel_no}-{line.split('/')[-1]}"
                 playlistInfo = f"#EXTINF:-1 tvg-chno=\"{channel_no}\" tvg-id=\"{line}\" tvg-name=\"{channel_name}\" tvg-logo=\"{channel.get('image')}\" group-title=\"ARGENTINA\",{channel_name}\n"                
-                write_to_playlist(playlistInfo)
                 write_to_playlist(video_url)
                 write_to_playlist("\n")
             except Exception as e:
