@@ -43,7 +43,7 @@ jobs:
       - name: execute py script 3
         run: python ucraniatv.py   
             
-      - name: execute py script 3
+      - name: execute py script 4
         run: YoutubeALL.py
         
       - name: commit files
