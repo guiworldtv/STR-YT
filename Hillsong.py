@@ -16,7 +16,7 @@ def get_live_info(channel_id):
         if urlMeta is None:
             return None
         url = urlMeta.get("content")
-        if(url is None or url.find("/watch?v=") == -1):
+        if(url is None or url.find("/user") == -1):
             return None
         titleMeta = soup.find("meta", property="og:title")
         imageMeta = soup.find("meta", property="og:image")
@@ -55,7 +55,7 @@ def generate_youtube_tv():
             try:
                 with ydl:
                     result = ydl.extract_info(
-                        f"https://www.youtube.com/{line}/live",
+                        f"https://vimeo.com/{line}",
                         download=False  # We just want to extract the info
                     )
 
