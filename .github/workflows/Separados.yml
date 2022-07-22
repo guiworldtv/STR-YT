@@ -28,7 +28,7 @@ jobs:
           
       - name: execute py script # run sj-gobierno.py to get the latest data
         run: python Hillsong.py
-             Languages.py
+             python Languages.py
           
       - name: commit files
         run: |
