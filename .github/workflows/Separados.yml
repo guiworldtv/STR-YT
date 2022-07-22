@@ -26,9 +26,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: execute py script # run sj-gobierno.py to get the latest data
+      - name: execute py script
         run: python Hillsong.py
-             python Languages.py
+      
+      - name: execute py script 2
+        run: python Languages.py
           
       - name: commit files
         run: |
