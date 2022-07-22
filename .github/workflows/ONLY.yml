@@ -25,8 +25,12 @@ jobs:
           
     - name: execute py script 
       run: python Hillsong.py
-           python Languages.py
-           python ucraniatv.py
+      
+    - name: execute py script
+      run: python Languages.py
+      
+    - name: execute py script
+      run: python ucraniatv.py
       
     - name: git add
       run: |
