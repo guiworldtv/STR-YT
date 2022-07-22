@@ -2,3 +2,4 @@
 
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+https://190vod-adaptive.akamaized.net/exp=1658470655~acl=%2F90067b07-c116-4c00-9907-d5c0c408c81d%2F%2A~hmac=6e6c71b31edcbcb02af80e31886b92fbf150ce29e72557b5314511f77e4e56f8/90067b07-c116-4c00-9907-d5c0c408c81d/video/64d1d827,6d207de5,21214542/audio/2931c2f7,b7db37a5,028198c9/master.mpd?query_string_ranges=1&base64_init=1
