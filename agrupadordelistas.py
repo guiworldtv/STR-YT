@@ -9,7 +9,7 @@ if os.path.exists("LISTASAGRUPADAS.m3u8"):
 else:
     print("The file does not exist")
 
-read_files = glob.glob("*.m3u8")
+read_files = glob.glob("*.m3u")
 
 print(read_files)
 
