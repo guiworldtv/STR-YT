@@ -3,6 +3,7 @@ c/spanishpod101
 c/EnglishClass101
 c/ABCLearningEnglish
 c/chineseclass101
+c/EnglishTVHD
 c/russianpod101
 c/arabicpod101
 c/greekpod101
