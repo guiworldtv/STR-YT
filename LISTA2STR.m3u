@@ -1,0 +1,162 @@
+
+
+
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1023-270819141305.png?q=10&v=3&w=275",DESCARGA MTV
+https://streaming-live.rtp.pt/liveradio/antena2opera80a/chunklist_DVR.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/1022-000919141305.png?q=10&v=3&w=275",DESCARGA MTV
+https://streaming-live.rtp.pt/liveradio/antena1fado80a/chunklist_DVR.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/100-222719141305.png?q=10&v=3&w=275",DESCARGA MTV
+https://streaming-live.rtp.pt/liveradio/lusitania80a/chunklist_DVR.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",DESCARGA MTV
+https://proxy-012.ix7.dailymotion.com/sec(MuyucYrWgkoHg2i5QVRo5oQxeyAOdWoMNX6DVGWpzTQNIUaqBxj_2zLYdDMvV3dJC6RSlLxGeFdQB5BMLVS3Ah7iMFEjnsopuBx-Pxt-CAk)/video/315/814/14418513_mp4_h264_aac.m3u8#cell=core
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/chunklist_b2540000_slpor.m3u8?token=1658721600_ddbe881dc40dbfed2656ec5ca59f01ed99377253
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+error: No playable streams found on this URL: https://www.rtp.pt/play/direto/rtp2
+
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/chunklist_b2540000_DVR_slpor.m3u8?token=1658721600_7552744aa9dfb04d01f00bba927baa729b09e7f7
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/chunklist_b1290000_slpt.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/chunklist_b1290000_slpt.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtpmad.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/chunklist_b640000_slpt.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/chunklist_b2540000_slpor.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África 
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/chunklist_b640000_slpt.m3u8
+
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,YOUTUBEAOVIVO
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1658585831/ei/h67bYuGSApKKhga__LHoDA/ip/20.114.144.205/id/Fof55uxFeSs.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr1---sn-5uaeznld.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/lT-KhschjG_HVieiMJihYW7FlGLj4h4/vprv/1/playlist_type/DVR/mh/Lr/mm/44/mn/sn-5uaeznld/ms/lva/mv/u/mvi/1/pl/20/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1658563582/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRgIhAP6q4D5JS2g-VnPApQU-xBKz3Yxf3-8lN9u7Z4o-damxAiEAkc6sMQyCnjV-kSmcQWYc8mu9qFr8Fptx4mnV5bIg6WE%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgK1Y8wwkjm9_xQbCEhGoUDqlAtTzgGB_QukQpezOaNdsCIDTQKMxu2rGVkhk36jTttcnhMaxc3iDBBaeYTHpOR0TP/playlist/index.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+https://video-auth7.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/chunks.m3u8?nimblesessionid=181468009&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMy8yMDIyIDg6MTc6MTQgQU0maGFzaF92YWx1ZT1Zd0tqZkJYNkV4UWVoSTY2YlZ2OElRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NDM2NWU4ZGMtODAyZi00YjU5LWFlYTktMWU5OTJhNjQ5OTVh
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+https://video-auth7.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720_passthrough/chunks.m3u8?nimblesessionid=181468022&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMy8yMDIyIDg6MTc6MTcgQU0maGFzaF92YWx1ZT1jcmh1MGpJUm1LQytnbHpGME00UU1BPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MjY1YjNiM2ItNDcxNy00Y2E0LWJlNzktNTBjMjNlZTlmOTM4
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
+https://video-auth7.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?nimblesessionid=181468034&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMy8yMDIyIDg6MTc6MjEgQU0maGFzaF92YWx1ZT1MVEsyVFlzOU1UOGQ4cHVBZFlTblR3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjVhMmI4ODEtMDk1Yy00NGZjLThiM2QtZjBmYmFkOTFlYjM3
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,
+error: No playable streams found on this URL: https://tviplayer.iol.pt/direto/TVI_AFRICA
+
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1 tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+https://video-auth7.iol.pt/live_tvi_internacional/live_tvi_internacional/edge_servers/tviinternacional-720p/chunks.m3u8?nimblesessionid=181468058&wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMy8yMDIyIDg6MTc6MjcgQU0maGFzaF92YWx1ZT1QTWVEWExlbFFBcGFSU3BVSjRORTJ3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTEzMTc5M2UtNGEzMS00MjhkLThmZGEtZGUwMGJiZjI2NDlj
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,MINAMALUCA
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqMEuaxPq0P2oTWRXoTK5wyGAZnpO1NBxUyBC4nnyJGmjhaYy1E1cfRIHoeyUDwvxem0hrkFSFDysBDoBhx1a_BjRP9tZVN4wmGhNlKk1LB6v7pxgYMo7RyfV1VYposXtTcJUmpuKKuoaiJGj8OlYn8x-BYv-7eY2Gd2W3nb3bdB7iegzQaCc5RjQtFeqvhxOQ6hGDfNtqVVNS0DcyrCm1rzj7U4GL_hjCod8RHJDLyTqyQLyG-X7fuIW5wj1lHMgJ0odBKiyu8Yn9exiRzixwZFQrqoVeAhpiEelwrV4f5FO7xxuBPKLRFG4b-TNb7O4Io326pPx_QLqPfJiZtA8Vc0E-KjPXrwDV-dYfb8ABdNztV5hPpuACnG9xyKEjsqejkY_gU4v4jZAOh9PRTb6xutRISArP_FcGiJw2y2hOb8hb3MvFA2OTA2mvIOgmgzq-mebafrRqWp4bC1NOP1aeuTvuueF2FZZYnSFtiLTDkTGnsvMLf8lDAxhYMP8YDLi2p8d6IIurjXuvUvHEhJZoNBfRrCdMyviqpnlsk4kcLoglb7Z_O_MMac1hbi_hK3uYr6IhUGaN_HEzgxfiE6m2qh3zQSQesJ7slpXzucAvhAY8KBGCkiY1L_c1VtBiPSd9VkJKBhWht7o4X9rELsyaQ2_qoEyB6sKDZCtCMflPKFn5XgM7gyGOI_TA5i4kLdwmbicPycHJn9TT3DpKL88dJ3LKjWkRoMldNRpwlW7PAo6UJKIAEqCXVzLXdlc3QtMjCgBA.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,CTVCLASSIC
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqwEOEhjriFXM1LtN4Hns0MSE0VH3mPeMijGbZU3ZIIPdHChY5cLeAdFFkWZAPTeWo2fG17Uzv4g5Lhx-5P1aZWSamvFK3DrxOAoyBAnFkVxdihozLuECODXycLCPbGU92KyztjvQ526yPT4YX-Bi5qk2NNBQRoToIqwRA2YanUD_mNKA1lQPsDeDyRoC6_CU37xmSH2Tt9B9DLp70tt_E20xNAYZAcmWg6sYbT6DIWfB_2jhZm_pYMQi81vSp16o6r2VegG6Y9oJbMoLG2-m0mlaFw-XyNE7URG4KF3FjHBQTrNWA2LVlku5vvZUMl3fcReRHW3O31zTj8JLsijJty3jTpqPfzMh-QwzoPTqDRUTU5kzWMfVmrfsBdqoYRrwTOgWJW6w7rPWrNGVkwG2As6EGdwRLHFKlW4t-AGzSZEPVfa4Ya2li2F-XuZ7ZanQygU49gszgykIGRqkHZw7FNh4_cJfuWVHboGOO5QT7bgcwigHKiBTysyfSDyCK47E0k_QBNnSWn-7fBQVDqWUfRvWjFjdLNGwUvF72ObzgkwyhqvcVXnbcUhVe7Qbfq2tNutavyp30YLsLTa2qfaTg0kzxjp88gpCXUCRrqJ4nNioGh2CIchV0QOyuEfCyuWt4f0YO5eFCf1vSLlKosQFguMbwuVcxTpqR3gZB0LiBgSwVsVomObIJR-NUbeqV64D9HKiVzD4QB_89Yw76ahDSJNqbMv3Osg9sedWmB3nRoMKfgXQYRsL2mFP0iVIAEqCXVzLXdlc3QtMjCgBA.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,WEATHERNEWSLIVE
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CrUENnOyokzP0NdwVKhdawgIjQ8Dp2kHHQ3MohMcD0HTmyziSkUUKDhaR1ImZa-WbvIVdEkIxUpptADgz-BAPbH2huyGm0qdB-4X0U_LJyRAYv6PM1PWOj6GXaRNA1fG4-WIz_fKpn7-7QYf8K7Z-XkABC4Eht3OGSCt090i98zuId9tIXGr5sDJtYtMz6EytemS9D4SevzWjfceNbtxTp09yfSWskiLz-e6tPerFbcURHb8VmVm-7arSfjKL8EjwYSLo4EHxTy1yqfgFEoaFHNrYgzwcCa3OfmnCXjqyioaze43rMyFUtA10h8p1Th8blNo5uQ1O4pzN0W6cFavm85ekQ_Pb9kKM9jdiaqMrh5HZ7xquuPMl7Allc3ZND3dDdw5GiCnYH7vXEVNjLAmJ9y1bVbQruD588GC9FhHVLbaph8C8H1DNCVDzx83A1NKqiIC2fVUSrLyV3aXwp5v0Y8QTdkRAHMz2cw9L93I8MTKEuMe5fCkNzfuCEXVA-6WZ_ktuIyW0wNnM0tkDPug3kSy9b2zTrUCFvd4CNoqia-t1Tl6jtToficMcu1BLc0g0yvMOhOgYqzSMpl_yuvdB-ryG-WGsI6wtZQ0rJd4tW66e7ho7Iibl-qe55IRHn6Ub2kXoHWnrRyq6mzxcZaJ44rK08e9oS6y9rHkQCWwr-V-DeyJZ7sQ-mAKD2uthaYYMxW-PdCXIZCsNZvPX2RhRq4FPmvYPqnBj6m43LYh2bk2W9VvfqNDYxoMh7Vq8nhliymx3U6EIAEqCXVzLXdlc3QtMjCgBA.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,LIVENOWFOX
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqIEBy6lKmdVGqNdU6gmYjUxBzdzzTLdrKK1RxxnJrR4ZF8HZxwYR0sLSA5P2TkvjdZgL-k1EZNPLUC1cI6mHajT_aUsfCh501onpbC8eruQtj3XBBnxJvC6c8IIshN8b4cPgE4yepTJRveqjtbCX0rMepTqsCJaBXgQrbYHAGKZlgb67RFDHx3MzQhCWaYi2FSh_F1o87GjmYUdveJv03G34tjPYtwXGRhcMEri9UpySWaYU4AL06VZ3iS79BZC6C7QwDgORH30HnxV3pi7_r5VoXl7ZBldu2S2eqfTqtoYaXpMs29qiZNEhTYkfDMggmAWaNFZTi4OLM2yT-41gbyll9UuaLNmvohS61lo-8ZUrkcwCBnK0pIhYl0AZtPmfNetQnaQtJkQTv8MtFHCwON8lFwJEiWgsKbln62zpX9THJN0dZJ93z63zEeZlC4NlJCgP3ZUVE0NAJiwSb-jr2E-Hl0aPDuRdAKNWi26Xx61XT4ypFn7rqFPm7m3Tb6HfuiM3nSl2ydJRmls2Zi5C1E9t1TLhk4HL79IcJol_aoRP4azObeeOs8SZ2pQVMnG1mR8nCwk_N06MYnynsaPnbjegL2P7hOdI--1ZHLs_G3A12troY25LXJ0FhqMz3cimzvII77FZZTa8Bjmg6TnOwXXeF3yBSxvS_HqxTuxNhqftJsx-SwZctMRCISyMsIObI-hRl6kawfTTScxIApHRubHfoeJGgx9OuPU46Y4S7eD0z4gASoJZXUtd2VzdC0yMKEE.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,TELEIBLEA ITALIANA
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CqQEf4npMjUrv1HsdOvUQsI5CLrtKBu1_CwuKlAd-FPabCTJMr2tDPvP-DKNMqFw3eijLivfUK8-Qy6VZmxpcsXcTAjYTD6ESAq2r-hpb-nDJUs8dnFvHgKE9Dq0vURJO2b1DuiIDTUbDJmNg81CjEnjhT8PS9SoWur3QiqR4kZO2VBfiGoiNRkN8Rq7wrxWiG7q4YumheuN414TN8H9sXp84V3A3gU1k9917o-ZXRi0ZOqKJu9kEtx9zCMD7W_lPd-Dog6jrg3o-5XON0PZYvWan5JY8bF3k1IcUiBInHOFyzHwhqNKvgWp5A1LtosPhuh7OpnHLO_TfrcHBq8yvlTSghu4TlWVUYEVjqyzN2Nl1J8xUT3ujm5wnl8cP8DKUxdpe_6IIZG6etGEz5OWzvGlqHtAYQRvldBmaiAP_b-bzH68ul0sA8DWuiMzXVpDXuLr5w0Cg5mhwQDwCUP8Rm9OC8-ke314lPXYHdyDObVz9zNpH5W-abQs2xEiEghNz57Wdqm-4wXeYSmuGEsgxij1RmQ8KD__TwMui_LvQZZCP8Xm-7f5t1O9d1e4_O2ii9FcqKp_AYqLkfqMM1d-yKDrnUOA9sZg_13SJ4Zq6DVjtCG6UV5j1fBxtu1QR9b_fjqTN0Y3RQS5-DwSS7WK0CqcBlsbQ2o7hJXQzpt6HANEMs1-WDyqLk3fvG_uuSFZ0x2UAlZr_IGd3SgAtFFPAk8j1B8U7SwaDHcU4yoMiWel8xXzUiABKglldS13ZXN0LTIwoQQ.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,PULARITV
+https://video-weaver.sea01.hls.ttvnw.net/v1/playlist/CpwE-bCmFG_DqDLpi9pWGDC6T_eqoy_5eu8y3ySd0-2hp0KzylCXOd2NfJlGRJzPW76MYDJMYLrsd4tbfmbe_LTxjO1D9Bns9rGcuWymcJO7PQJv9Z_G4gP900yLc25u-rQSec5x6B1za7-kO5PVUZ1yrijPqPlr8qfIz8NgXzQ6D2ncHF_rOffK0pHaQF4l7QIwiTW-Se6v7ex4CEhHEFiKO88isFpK5GiFpntdu9WdksqQR1zICNtayIdwxAA8XlwwvdecU0JHxFfAf4F8gFoB7QfTIXrz_TGTcZKNH0jXO6Jr-41WrL_VFTl2lfSpf2uD1PQF8NjK3JVKGVbVmhjaTM5514uTcnZyAZp4mV-LfGpxRqimymsD-fbXOWUS97A5dzWFV9gq8xIO8wvKgnUV3QkHvJa3AwouKmf2hKoAWBkB6GY4TJzposXKC2xvF1zt8NjJ8Nrt_L4DUahiJVNaeXhVhfGisGOurDCsBqBgMF-d6QQGZhpWLaB5B2sMzWCiajEODM9OeZuHOPDNzLSPa_fZJmg40Fcgt5uHvXpK6vd2bd3t-03PKfESKGWcgDWyOST-mEODjjs7BML0yjaPzACQw3EQahwzJ5ZIlE8meOGAcVLGX7a2hiKuBsLrUaaTi5j_eeFCoiIjZcETqD8EKaVISNkiYCWUm65ebLk8i9lLvgw3gXXRjnXvWppsJoKDLS9OmQn3ToTQw7L0GgzLMwf8B6jJ9OfWGgUgASoJdXMtd2VzdC0yMKAE.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,CLANESPAÑA
+https://rtvelivestream.akamaized.net/segments/clan/clan_main_720.m3u8
+
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+#EXTINF:-1,TELEFE
+error: Unable to open URL: https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS (403 Client Error: Forbidden for url: https://telefeappmitelefe1.akamaized.net/hls/live/2037985/appmitelefe/TOK/master.m3u8?hdnea=st=1658560479~exp=1658567679~acl=/hls/live/2037985/appmitelefe/TOK/*~hmac=82afa8331a23ce30f7be9c2614808815a08ff0aac731833d5a72c01e1e1f1f7e)
