@@ -35,7 +35,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute py script
-        run: python Hillsong.py
+        run: python Church.py
       
       - name: execute py script 2
         run: python Languages.py
