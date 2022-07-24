@@ -20,6 +20,7 @@ jobs:
         git config --global user.name "GitHub Action"
     - name: Install streamlink
       run: |
+        sudo apt install ffmpeg python3-pip git
         pip install --user --upgrade streamlink
     - name: Get LISTA4.m3u8
       run: |
