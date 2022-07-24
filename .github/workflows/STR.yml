@@ -114,13 +114,13 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/CNN best)
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u --hls-segment-threads https://tviplayer.iol.pt/direto/CNN best)
 
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         #EXTINF:-1 tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
-        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u https://tviplayer.iol.pt/direto/TVI best)
+        $(streamlink --url --default-stream  --stream-url --output /home/runner/work/youtube.m3u --hls-segment-threads https://tviplayer.iol.pt/direto/TVI best)
 
         #EXTM3U
         #EXT-X-VERSION:3
